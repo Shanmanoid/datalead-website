@@ -4,7 +4,6 @@ import { cn } from '@/utils/cn'
 const languages = [
   { code: 'az', label: 'AZ' },
   { code: 'en', label: 'EN' },
-  { code: 'ru', label: 'RU' },
 ]
 
 export function LanguageSwitcher() {

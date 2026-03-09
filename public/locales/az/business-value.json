@@ -27,9 +27,13 @@
       "ai": { "title": "AI-yə Hazır Əsaslar", "desc": "Miqyaslanan, idarə olunan məlumat mühitləri" }
     }
   },
+  "methodology": {
+    "title": "Dayanıqlılığı Necə Tətbiq Edirik",
+    "subtitle": "Altı əməliyyat sütunu ilə davamlı icra dövrünü birləşdirən strukturlaşdırılmış yanaşma."
+  },
   "framework": {
-    "title": "Korporativ Dayanıqlılıq Çərçivəmiz",
-    "subtitle": "Dayanıqlılıq əməliyyatlara daxil edilib — uğursuzluqdan sonra tətbiq edilmir.",
+    "title": "Dayanıqlılığın Altı Sütunu",
+    "subtitle": "Hər sütun korporativ məlumat mühafizəsinin kritik ölçüsünü əhatə edir.",
     "steps": {
       "prevention": { "title": "Qarşısını Alma", "desc": "İnsident ehtimalını azaltmaq" },
       "protection": { "title": "Qoruma", "desc": "İnfrastruktur və məlumat qatlarını təmin etmək" },

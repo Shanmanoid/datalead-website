@@ -27,9 +27,13 @@
       "ai": { "title": "AI-Ready Foundations", "desc": "Scalable, governed data environments" }
     }
   },
+  "methodology": {
+    "title": "How We Implement Resilience",
+    "subtitle": "A structured approach combining six operational pillars with a continuous execution cycle."
+  },
   "framework": {
-    "title": "Our Enterprise Resilience Framework",
-    "subtitle": "Resilience is embedded into operations — not applied after failure.",
+    "title": "Six Pillars of Resilience",
+    "subtitle": "Each pillar addresses a critical dimension of enterprise data protection.",
     "steps": {
       "prevention": { "title": "Prevention", "desc": "Reduce incident probability" },
       "protection": { "title": "Protection", "desc": "Secure infrastructure and data layers" },

@@ -567,9 +567,28 @@ export default function BusinessValuePage() {
 
       <RiskStats />
       <Priorities />
-      <ResilienceFramework />
 
-      {/* Domains Header */}
+      {/* Block B: Methodology */}
+      <section className="pt-20 pb-4 bg-surface-alt">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <div className="text-center max-w-3xl mx-auto">
+              <span className="inline-block px-4 py-1.5 rounded-full bg-brand/10 text-brand text-sm font-semibold mb-4 uppercase tracking-wider">
+                {t('methodology.title')}
+              </span>
+              <p className="text-text-secondary text-lg">
+                {t('methodology.subtitle')}
+              </p>
+            </div>
+          </ScrollReveal>
+        </div>
+      </section>
+
+      <div className="bg-surface-alt">
+        <ResilienceFramework />
+      </div>
+
+      {/* Block C: Capabilities */}
       <section className="pt-20 pb-8 bg-gradient-to-b from-surface-alt to-surface">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading
