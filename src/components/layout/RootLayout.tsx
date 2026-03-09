@@ -14,7 +14,7 @@ export function RootLayout() {
   }, [location.pathname])
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col overflow-x-hidden">
       <ScrollProgress />
       <Header />
       <main className="flex-1 pt-16 md:pt-20">

@@ -68,8 +68,10 @@ export function Header() {
               ))}
             </nav>
 
-            <div className="flex items-center gap-3">
-              <LanguageSwitcher />
+            <div className="flex items-center gap-2 sm:gap-3">
+              <div className="hidden sm:block">
+                <LanguageSwitcher />
+              </div>
               <ThemeToggle />
               <button
                 onClick={() => setIsMobileOpen(!isMobileOpen)}
@@ -102,6 +104,9 @@ export function Header() {
               className="fixed top-0 right-0 bottom-0 w-72 bg-surface z-50 lg:hidden shadow-2xl"
             >
               <div className="p-6 pt-20 flex flex-col gap-2">
+                <div className="sm:hidden mb-4 flex justify-center">
+                  <LanguageSwitcher />
+                </div>
                 {navItems.map((item, i) => (
                   <motion.div
                     key={item.path}

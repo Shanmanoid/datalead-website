@@ -81,7 +81,7 @@ function Priorities() {
           title={t('priorities.title')}
           subtitle={t('priorities.subtitle')}
         />
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {items.map((item, i) => {
             const Icon = item.icon
             return (
@@ -120,7 +120,7 @@ function ResilienceFramework() {
           title={t('framework.title')}
           subtitle={t('framework.subtitle')}
         />
-        <div className="mt-12 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
           {steps.map((step, i) => {
             const Icon = stepIcons[i]
             return (
@@ -184,12 +184,13 @@ function DomainSection({ domainKey, anchor, icon: Icon, gradient }: {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Domain Header */}
         <ScrollReveal>
-          <div className="flex items-center gap-4 mb-2">
-            <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${gradient} flex items-center justify-center`}>
-              <Icon size={28} className="text-white" />
+          <div className="flex items-center gap-3 sm:gap-4 mb-2">
+            <div className={`w-12 h-12 sm:w-14 sm:h-14 rounded-2xl bg-gradient-to-br ${gradient} flex items-center justify-center shrink-0`}>
+              <Icon size={24} className="text-white sm:hidden" />
+              <Icon size={28} className="text-white hidden sm:block" />
             </div>
-            <div>
-              <h2 className="text-2xl md:text-3xl font-bold text-text-primary">
+            <div className="min-w-0">
+              <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-text-primary">
                 {t(`domains.${domainKey}.title`)}
               </h2>
               <p className="text-orange-500 font-medium mt-1">
@@ -429,13 +430,13 @@ function ComparisonTable() {
         />
         <ScrollReveal>
           <div className="mt-10 overflow-x-auto">
-            <table className="w-full border-collapse">
+            <table className="w-full border-collapse min-w-[500px]">
               <thead>
                 <tr>
-                  <th className="p-4 text-left text-sm font-bold bg-gray-500/10 text-text-secondary rounded-tl-xl">
+                  <th className="p-3 sm:p-4 text-left text-xs sm:text-sm font-bold bg-gray-500/10 text-text-secondary rounded-tl-xl">
                     {t('comparison.colInternal')}
                   </th>
-                  <th className="p-4 text-left text-sm font-bold bg-brand/10 text-brand rounded-tr-xl">
+                  <th className="p-3 sm:p-4 text-left text-xs sm:text-sm font-bold bg-brand/10 text-brand rounded-tr-xl">
                     {t('comparison.colDataLead')}
                   </th>
                 </tr>
@@ -443,12 +444,12 @@ function ComparisonTable() {
               <tbody>
                 {rows.map((row, i) => (
                   <tr key={i} className="border-b border-border last:border-0">
-                    <td className="p-4 align-top">
-                      <div className="text-sm font-semibold text-text-secondary">{row.internalTitle}</div>
+                    <td className="p-3 sm:p-4 align-top">
+                      <div className="text-xs sm:text-sm font-semibold text-text-secondary">{row.internalTitle}</div>
                       <div className="text-xs text-text-muted mt-1">{row.internalDesc}</div>
                     </td>
-                    <td className="p-4 align-top bg-brand/5">
-                      <div className="text-sm font-semibold text-brand">{row.dataLeadTitle}</div>
+                    <td className="p-3 sm:p-4 align-top bg-brand/5">
+                      <div className="text-xs sm:text-sm font-semibold text-brand">{row.dataLeadTitle}</div>
                       <div className="text-xs text-text-secondary mt-1">{row.dataLeadDesc}</div>
                     </td>
                   </tr>
@@ -540,7 +541,7 @@ export default function BusinessValuePage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative pt-32 pb-20 overflow-hidden">
+      <section className="relative pt-24 sm:pt-32 pb-16 sm:pb-20 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-brand/5 via-transparent to-orange-500/5" />
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
           <ScrollReveal>
@@ -552,7 +553,7 @@ export default function BusinessValuePage() {
               >
                 {t('hero.badge')}
               </motion.span>
-              <h1 className="text-4xl md:text-5xl font-bold text-text-primary leading-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-text-primary leading-tight">
                 {t('hero.title')}{' '}
                 <span className="text-brand">{t('hero.titleHighlight')}</span>
               </h1>
@@ -595,10 +596,10 @@ export default function BusinessValuePage() {
       <WhyDataLead />
 
       {/* CTA */}
-      <section className="py-20 bg-gradient-to-br from-brand to-brand-dark">
+      <section className="py-16 sm:py-20 bg-gradient-to-br from-brand to-brand-dark">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <ScrollReveal>
-            <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4">
               {t('cta.title')}
             </h2>
             <p className="text-white/80 text-lg mb-8">

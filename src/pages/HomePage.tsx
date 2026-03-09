@@ -38,7 +38,7 @@ export default function HomePage() {
           />
           <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {featuredServices.map((service, i) => (
-              <ScrollReveal key={service.id} delay={i * 0.1}>
+              <ScrollReveal key={service.id} delay={i * 0.1} className="h-full">
                 <ServiceCard service={service} index={i} />
               </ScrollReveal>
             ))}
@@ -82,12 +82,12 @@ export default function HomePage() {
                 {techCards.map(card => {
                   const Icon = card.icon
                   return (
-                    <div key={card.name} className="group p-6 rounded-2xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-lg transition-all duration-300">
+                    <div key={card.name} className="group p-4 sm:p-6 rounded-2xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-lg transition-all duration-300">
                       <div className={`w-10 h-10 rounded-lg ${card.color} flex items-center justify-center mb-3 group-hover:scale-110 transition-transform`}>
                         <Icon size={20} />
                       </div>
-                      <div className="text-xl font-bold text-text-primary mb-1">{card.name}</div>
-                      <div className="text-sm text-text-secondary">{t(card.descKey)}</div>
+                      <div className="text-lg sm:text-xl font-bold text-text-primary mb-1">{card.name}</div>
+                      <div className="text-xs sm:text-sm text-text-secondary">{t(card.descKey)}</div>
                     </div>
                   )
                 })}

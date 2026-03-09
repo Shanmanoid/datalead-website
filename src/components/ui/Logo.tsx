@@ -6,12 +6,12 @@ export function Logo() {
       <img
         src="/images/logo_dark.png"
         alt="DataLead Consulting"
-        className="h-14 block dark:hidden"
+        className="h-10 sm:h-14 block dark:hidden"
       />
       <img
         src="/images/logo_light.png"
         alt="DataLead Consulting"
-        className="h-14 hidden dark:block"
+        className="h-10 sm:h-14 hidden dark:block"
       />
     </Link>
   )
