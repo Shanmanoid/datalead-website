@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Bilik Bazası",
+    "subtitle": "Təkmilləşdirilmiş Verilənlər Bazası Müştəri Dəstəyi — korporativ DB əməliyyatları üçün hərtərəfli sənədlər."
+  },
+  "sections": {
+    "operations": {
+      "title": "Missiya-Kritik Verilənlər Bazası Əməliyyat Dəstəyi",
+      "q1": "Missiya-Kritik İstehsal DB Dəstəyi (24/7)",
+      "a1": "Gecə-gündüz istehsal verilənlər bazası dəstəyimiz missiya-kritik sistemlərinizin hər zaman işlək qalmasını təmin edir. Oracle, PostgreSQL, MS-SQL, MongoDB və digər korporativ DB platformalarında davamlı monitorinq, dərhal insident cavabı və proaktiv texniki xidmət göstəririk.",
+      "q2": "Yüksək Əlçatanlıq və Nasazlığa Davamlı DB Əməliyyatları",
+      "a2": "Aktiv-passiv klasterləşdirmə, çox düyünlü replikasiya, avtomatik keçid və coğrafi paylanmış qurğular daxil olmaqla yüksək əlçatanlıq DB arxitekturalarını layihələndiririk, tətbiq edir və idarə edirik. Patroni, PgBouncer, Oracle RAC, Always On və digər HA texnologiyaları ilə işləyirik.",
+      "q3": "İnsident Cavabı və Sürətli Bərpa (SLA əsaslı)",
+      "a3": "SLA əsaslı insident cavab çərçivəmiz DB problemlərinin sürətli aşkarlanmasını, diaqnostikasını və həllini təmin edir. P1 kritik insidentlərdən (15 dəqiqə cavab) P4 informasiya sorğularına qədər ciddi cavab vaxtı öhdəlikləri saxlayırıq.",
+      "q4": "Proaktiv Verilənlər Bazası Sağlamlıq Monitorinqi",
+      "a4": "DB performans göstəricilərini, resurs istifadəsini, sorğu icra nümunələrini və anomaliya aşkarlanmasını real vaxtda izləyən hərtərəfli monitorinq həlləri tətbiq edirik. Proaktiv yanaşmamız potensial problemləri istehsala təsir etməzdən əvvəl müəyyən edir.",
+      "q5": "Performans və Sabitlik Təminatı",
+      "a5": "Performans təminat proqramımız optimal DB performansını saxlamaq üçün davamlı müqayisə testi, iş yükü təhlili və trend proqnozlaşdırmasını birləşdirir. Performans bazalarını müəyyən edir, sapmaları izləyir və düzəliş tədbirlərini proaktiv tətbiq edirik."
+    },
+    "engineering": {
+      "title": "Təkmilləşdirilmiş Verilənlər Bazası Mühəndisliyi və Optimallaşdırma",
+      "q1": "Təkmilləşdirilmiş Performans Tənzimləmə və Sorğu Optimallaşdırma",
+      "a1": "DB mühəndislərimiz icra planı optimallaşdırması, indeks strategiyası yenidən dizaynı, sorğu yenidən yazılması və statistika idarəetməsi daxil olmaqla dərin performans təhlili aparır. AWR/ASH hesabatları (Oracle), pg_stat_statements (PostgreSQL), Query Store (SQL Server) istifadə edirik.",
+      "q2": "Tutum Planlaması və Artım Proqnozu",
+      "a2": "Tarixi artım təhlili, iş yükü trend modelləşdirməsi və biznes proqnoz xəritələşdirməsini birləşdirən dataya əsaslanan tutum planlaması təqdim edirik. Saxlama, hesablama, yaddaş və I/O tələblərini əhatə edir.",
+      "q3": "Verilənlər Bazası Arxitekturasının Nəzərdən Keçirilməsi və Yenidən Dizaynı",
+      "a3": "Arxitektura nəzərdən keçirmə xidmətimiz cari DB topologiyanızı, sxem dizaynını, bölmələmə strategiyasını və infrastruktur quruluşunu sənaye ən yaxşı təcrübələrinə qarşı qiymətləndirir. Darboğazları, tək nasazlıq nöqtələrini və miqyaslana bilmə məhdudiyyətlərini müəyyən edirik.",
+      "q4": "Mürəkkəb Miqrasiya və Yüksəltmə Mühəndisliyi",
+      "a4": "Cross-platform keçidlər (Oracle-dən PostgreSQL-ə, SQL Server-dən PostgreSQL-ə), əsas versiya yüksəltmələri və bulud miqrasiyaları daxil olmaqla mürəkkəb DB miqrasiyalarını mühəndisləşdirir və icra edirik. Metodologiyamız keçid zamanı sıfır və ya sıfıra yaxın fasilə təmin edir.",
+      "q5": "Cross-Platform və Hibrid DB Əməliyyatları",
+      "a5": "Birdən çox platforma (Oracle, PostgreSQL, SQL Server, MongoDB, Cassandra) və yerləşdirmə modelləri (on-premises, bulud, hibrid) üzrə heterojen DB mühitlərini idarə edirik. Vahid əməliyyat çərçivəmiz bütün data varlığınız üzrə ardıcıl monitorinq, texniki xidmət və optimallaşdırma təmin edir.",
+      "q6": "Saxlama, IO və İnfrastruktura Həssas Optimallaşdırma",
+      "a6": "İnfrastruktura həssas optimallaşdırmamız tam yığını əhatə edir — DB konfiqurasiyasından saxlama alt sistemlərinə və I/O nümunələrinə qədər. Disk ötürülmə qabiliyyətini, IOPS profillərini, yaddaş təzyiqini və şəbəkə gecikmələrini təhlil edirik."
+    },
+    "governance": {
+      "title": "Korporativ DB İdarəetmə, Təhlükəsizlik və Etibarlılıq",
+      "q1": "Bilik Transferi və Əməliyyat Sənədləşdirməsi",
+      "a1": "Runbooklar, arxitektura diaqramları, bərpa prosedurları və problemlərin aradan qaldırılması üzrə bələdçilər daxil olmaqla hərtərəfli əməliyyat sənədləri yaradırıq və saxlayırıq. Bilik transfer proqramlarımız daxili komandalarınızın gündəlik əməliyyatları müstəqil idarə edə bilməsini təmin edir.",
+      "q2": "Dəyişiklik İdarəetmə və Buraxılış İdarəetməsi",
+      "a2": "Dəyişiklik idarəetmə çərçivəmiz bütün DB dəyişikliklərinin — sxem dəyişiklikləri, konfiqurasiya yeniləmələri, yamaq tətbiqləri — strukturlaşdırılmış nəzərdən keçirmə, təsdiq və geri qaytarma prosesindən keçməsini təmin edir.",
+      "q3": "Uyğunluq, Audit Hazırlığı və Risk Azaltma",
+      "a3": "GDPR, PCI-DSS, SOX, HIPAA və yerli data qoruma qanunları daxil olmaqla tənzimləyici standartlara uyğunluğu əldə etməyə və saxlamağa kömək edirik. Audit izi tətbiqi, giriş jurnalı, data təsnifatı və avtomatlaşdırılmış uyğunluq hesabatlığı xidmətləri göstəririk.",
+      "q4": "Ehtiyat Nüsxə Strategiyası Mühəndisliyi və Bərpa Yoxlanışı",
+      "a4": "Tam, artımlı və davamlı arxivləşdirmə həlləri daxil olmaqla korporativ səviyyəli ehtiyat nüsxə strategiyaları layihələndiririk və tətbiq edirik. Ehtiyat nüsxələrinizin həqiqətən bərpa edilə biləcəyini təmin etmək üçün müntəzəm bərpa məşqləri və yoxlama testi keçiririk.",
+      "q5": "Data Bütövlüyü, Uyğunluq və Etibarlılıq İdarəetməsi",
+      "a5": "Data bütövlüyü idarəetməmiz verilənlər bazalarınızın tranzaksiyalar, replikalar və ehtiyat nüsxələr üzrə ardıcıllığı saxlamasını təmin edir. Kontrol cəmi doğrulaması, məhdudiyyət tətbiqi, istinad bütövlüyü monitorinqi və çarpaz sistem uzlaşdırma proseslərini tətbiq edirik.",
+      "q6": "Verilənlər Bazası Təhlükəsizliyinin Gücləndirilməsi və Giriş Nəzarəti",
+      "a6": "Durğun və tranzitdə şifrələmə (Oracle TDE, PostgreSQL pgcrypto), incə dənəli giriş nəzarəti, imtiyaz idarəetməsi, SQL injection qarşısının alınması və zəiflik yamalanması daxil olmaqla hərtərəfli DB təhlükəsizliyi tətbiq edirik. DataSunrise ilə data maskalama və HashiCorp Vault ilə sirlər idarəetməsi həyata keçiririk."
+    }
+  }
+}

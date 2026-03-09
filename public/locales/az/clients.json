@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "title": "Müştərilərimiz",
+    "subtitle": "Azərbaycanın aparıcı təşkilatları bizə etibar edir."
+  },
+  "section": {
+    "title": "Kimlərlə işləyirik",
+    "subtitle": "Dövlət qurumlarından böyük maliyyə institutlarına və müəssisələrə qədər."
+  },
+  "sectors": {
+    "government": "Dövlət sektoru",
+    "banking": "Bank və maliyyə",
+    "enterprise": "Müəssisələr"
+  }
+}

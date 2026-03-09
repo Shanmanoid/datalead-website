@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "title": "Our Partners",
+    "subtitle": "Strategic technology partnerships that amplify our capabilities."
+  },
+  "section": {
+    "title": "Technology Partnerships",
+    "subtitle": "We partner with industry leaders to deliver best-in-class solutions."
+  },
+  "list": {
+    "iomete": "Official IOMETE partner providing modern Data Lakehouse solutions. IOMETE offers a unified analytics platform built on Apache Spark and Apache Iceberg for scalable data processing.",
+    "denodo": "Strategic partner for data virtualization solutions. Denodo enables real-time data integration across disparate sources without physical data movement.",
+    "datasunrise": "Database security partner providing comprehensive data protection, masking, and audit solutions for enterprise databases.",
+    "securemax": "Security solutions partner specializing in infrastructure security, compliance, and risk management for critical data systems.",
+    "vanderlog": "Cybersecurity services and solutions provider, offering comprehensive protection for enterprise IT infrastructure and data assets.",
+    "accelario": "Database cloning and test data management platform enabling rapid provisioning of production-like database copies with built-in data masking and encryption."
+  }
+}

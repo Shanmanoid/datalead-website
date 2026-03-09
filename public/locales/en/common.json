@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "prices": "Prices",
+    "team": "Team",
+    "clients": "Clients",
+    "partners": "Partners",
+    "contact": "Contact",
+    "docs": "Documentation",
+    "businessValue": "Business Value"
+  },
+  "footer": {
+    "description": "DataLead Consulting — 18+ years of enterprise data management expertise. We help organizations transform their data into strategic assets.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "contactUs": "Contact Us",
+    "rights": "All rights reserved."
+  },
+  "cta": {
+    "title": "Ready to Transform Your Data Infrastructure?",
+    "subtitle": "Let our experts help you build scalable, secure, and efficient data solutions tailored to your business needs.",
+    "button": "Get in Touch"
+  },
+  "learnMore": "Learn More",
+  "backToServices": "Back to Services",
+  "notFound": {
+    "message": "The page you're looking for doesn't exist.",
+    "backHome": "Back to Home"
+  },
+  "services": {
+    "dbSupport": { "title": "24/7 Database Support", "description": "Round-the-clock monitoring and administration of all types of databases." },
+    "postgresql": { "title": "PostgreSQL Services", "description": "Complete PostgreSQL deployment, migration, optimization and support." },
+    "dwh": { "title": "Data Warehouses & Data Lakes", "description": "Design and build enterprise data warehouses and data lakes." },
+    "nosql": { "title": "NoSQL Databases", "description": "Management and optimization of MongoDB, Cassandra, HBase and more." },
+    "migration": { "title": "Database Migration", "description": "Safe and seamless migration between database platforms." },
+    "training": { "title": "DBA Training", "description": "Professional training programs for database administrators." },
+    "security": { "title": "Database Security", "description": "Comprehensive database security audits and implementations." },
+    "aiml": { "title": "AI & Machine Learning", "description": "Scalable AI/ML environments for model training and deployment." },
+    "platform": { "title": "Data Platform Deployment", "description": "Deploy and configure fully managed IOMETE data infrastructure." },
+    "etl": { "title": "ETL/ELT Pipeline Design", "description": "Production-grade data pipelines with Spark, dbt and IOMETE." },
+    "bi": { "title": "BI & Analytics Integration", "description": "Real-time dashboards with Power BI, Tableau, and Looker." },
+    "governance": { "title": "Database Governance", "description": "Enterprise database governance, compliance and change management." }
+  },
+  "serviceDetail": {
+    "problem": "Challenge",
+    "solution": "Solution",
+    "whyNeed": "Why You Need This",
+    "whatWeProvide": "What We Provide",
+    "keyFeatures": "Key Features & Deliverables",
+    "technologies": "Technologies We Use"
+  },
+  "servicesPage": {
+    "hero": { "title": "Our Services", "subtitle": "Comprehensive data management and platform solutions for enterprises of all sizes." },
+    "database": { "title": "Database & Infrastructure", "subtitle": "Expert administration, optimization and security for enterprise databases." },
+    "platform": { "title": "Data Platform (IOMETE)", "subtitle": "Modern cloud-native data lakehouse solutions powered by IOMETE." }
+  },
+  "pricesPage": {
+    "hero": { "title": "Pricing Plans", "subtitle": "Transparent pricing for IOMETE Data Lakehouse platform and consulting services." },
+    "iomete": { "title": "IOMETE Data Lakehouse", "subtitle": "Choose the plan that fits your organization's needs." },
+    "popular": "Most Popular",
+    "consulting": {
+      "title": "Consulting Services",
+      "text": "Our traditional database consulting services are priced on a per-project basis. Contact us for a custom quote tailored to your specific requirements.",
+      "cta": "Request a Quote"
+    }
+  },
+  "prices": {
+    "free": {
+      "name": "Free",
+      "feature1": "Up to 100 vCPU",
+      "feature2": "Self-hosted deployment",
+      "feature3": "Community support",
+      "feature4": "Basic features",
+      "cta": "Get Started"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "min": "Minimum $100,000/year",
+      "feature1": "Unlimited vCPU",
+      "feature2": "Data masking",
+      "feature3": "Role-based security",
+      "feature4": "Audit logging",
+      "feature5": "Enterprise support",
+      "cta": "Contact Sales"
+    },
+    "business": {
+      "name": "Business Critical",
+      "min": "Minimum $250,000/year",
+      "feature1": "Unlimited vCPU",
+      "feature2": "Multi-region deployment",
+      "feature3": "Dedicated engineers",
+      "feature4": "Enterprise support",
+      "feature5": "Custom SLA",
+      "cta": "Contact Sales"
+    }
+  }
+}

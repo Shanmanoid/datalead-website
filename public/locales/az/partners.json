@@ -1,0 +1,18 @@
+{
+  "hero": {
+    "title": "Partnyorlarımız",
+    "subtitle": "İmkanlarımızı gücləndiirən strateji texnoloji tərəfdaşlıqlar."
+  },
+  "section": {
+    "title": "Texnoloji tərəfdaşlıqlar",
+    "subtitle": "Ən yaxşı həlləri təqdim etmək üçün sənaye liderləri ilə əməkdaşlıq edirik."
+  },
+  "list": {
+    "iomete": "Müasir Data Lakehouse həlləri təqdim edən rəsmi IOMETE tərəfdaşı. IOMETE miqyaslana bilən data emalı üçün Apache Spark və Apache Iceberg üzərində qurulmuş vahid analitika platforması təklif edir.",
+    "denodo": "Data virtuallaşdırma həlləri üzrə strateji tərəfdaş. Denodo fiziki data daşınması olmadan müxtəlif mənbələrdən real vaxt data inteqrasiyasını təmin edir.",
+    "datasunrise": "Korporativ verilənlər bazaları üçün hərtərəfli data qorunması, maskalama və audit həlləri təqdim edən DB təhlükəsizliyi tərəfdaşı.",
+    "securemax": "İnfrastruktur təhlükəsizliyi, uyğunluq və risk idarəetməsi sahəsində ixtisaslaşmış təhlükəsizlik həlləri tərəfdaşı.",
+    "vanderlog": "Korporativ İT infrastrukturunu və data aktivlərini hərtərəfli qoruyan kibertəhlükəsizlik xidmətləri və həlləri təminatçısı.",
+    "accelario": "Daxili data maskalama və şifrələmə ilə istehsal mühitinə bənzər verilənlər bazası nüsxələrinin sürətli yaradılmasını təmin edən DB klonlaşdırma və test data idarəetmə platforması."
+  }
+}

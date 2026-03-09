@@ -1,0 +1,118 @@
+import { useTranslation } from 'react-i18next'
+import { ScrollReveal } from '@/components/ui/ScrollReveal'
+import { SectionHeading } from '@/components/ui/SectionHeading'
+import { CTABanner } from '@/components/sections/CTABanner'
+import { Building2, Landmark, Briefcase } from 'lucide-react'
+import type { LucideIcon } from 'lucide-react'
+
+interface ClientEntry {
+  name: string
+  logo: string
+}
+
+const clientGroups: {
+  titleKey: string
+  icon: LucideIcon
+  gradient: string
+  clients: ClientEntry[]
+}[] = [
+  {
+    titleKey: 'clients:sectors.government',
+    icon: Landmark,
+    gradient: 'from-blue-500 to-indigo-600',
+    clients: [
+      { name: 'Ministry of Economy', logo: '/images/clients/iqtisadiyyat.png' },
+      { name: 'State Tax Service', logo: '/images/clients/dvx.png' },
+      { name: 'State Customs Committee', logo: '/images/clients/dgk.png' },
+      { name: 'Ministry of Education', logo: '/images/clients/tehsil.png' },
+      { name: 'State Property Committee', logo: '/images/clients/emlak.png' },
+      { name: 'Ministry of Health', logo: '/images/clients/healt.png' },
+      { name: 'AZAL', logo: '/images/clients/azal.png' },
+      { name: 'ADSEA', logo: '/images/clients/adsea.png' },
+      { name: 'State Exam Center', logo: '/images/clients/dim.svg' },
+      { name: 'AQTA', logo: '/images/clients/aqta.png' },
+    ],
+  },
+  {
+    titleKey: 'clients:sectors.banking',
+    icon: Building2,
+    gradient: 'from-emerald-500 to-teal-600',
+    clients: [
+      { name: 'PASHA Bank', logo: '/images/clients/pashabank.png' },
+      { name: 'PASHA Technology', logo: '/images/clients/pasha-technology-1.svg' },
+      { name: 'UNIBank', logo: '/images/clients/unibank.png' },
+      { name: 'Bank Respublika', logo: '/images/clients/bankresp.svg' },
+      { name: 'GoldenPay', logo: '/images/clients/hesab.png' },
+    ],
+  },
+  {
+    titleKey: 'clients:sectors.enterprise',
+    icon: Briefcase,
+    gradient: 'from-orange-500 to-red-600',
+    clients: [
+      { name: 'Azerişıq', logo: '/images/clients/azerisiq.png' },
+      { name: 'KATECH', logo: '/images/clients/katech.png' },
+      { name: 'AİSTGroup', logo: '/images/clients/aist.png' },
+    ],
+  },
+]
+
+export default function ClientsPage() {
+  const { t } = useTranslation('clients')
+
+  return (
+    <>
+      <section className="py-20 bg-gradient-to-br from-brand-dark to-brand">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">{t('hero.title')}</h1>
+          <p className="text-lg text-white/80 max-w-2xl mx-auto">{t('hero.subtitle')}</p>
+        </div>
+      </section>
+
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading title={t('section.title')} subtitle={t('section.subtitle')} />
+          <div className="mt-12 space-y-12">
+            {clientGroups.map((group, gi) => {
+              const GroupIcon = group.icon
+              return (
+                <ScrollReveal key={gi} delay={gi * 0.1}>
+                  <div className="relative rounded-2xl bg-surface-alt border border-border overflow-hidden">
+                    <div className={`h-1 bg-gradient-to-r ${group.gradient}`} />
+                    <div className="p-8">
+                      <div className="flex items-center gap-3 mb-6">
+                        <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${group.gradient} flex items-center justify-center`}>
+                          <GroupIcon size={20} className="text-white" />
+                        </div>
+                        <h3 className="text-xl font-bold text-text-primary">{t(group.titleKey)}</h3>
+                      </div>
+                      <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                        {group.clients.map(client => (
+                          <div
+                            key={client.name}
+                            className="group flex flex-col items-center justify-center h-36 rounded-xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-lg transition-all duration-300 p-5"
+                          >
+                            <img
+                              src={client.logo}
+                              alt={client.name}
+                              className="h-16 w-auto object-contain mb-3 group-hover:scale-110 transition-transform"
+                            />
+                            <span className="text-xs font-medium text-text-secondary text-center leading-tight">
+                              {client.name}
+                            </span>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </ScrollReveal>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      <CTABanner />
+    </>
+  )
+}

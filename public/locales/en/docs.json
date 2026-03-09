@@ -1,0 +1,51 @@
+{
+  "hero": {
+    "title": "Knowledge Base",
+    "subtitle": "Advanced Database Customer Support — comprehensive documentation for enterprise database operations."
+  },
+  "sections": {
+    "operations": {
+      "title": "Mission-Critical Database Operations Support",
+      "q1": "Mission-Critical Production Database Support (24/7)",
+      "a1": "Our round-the-clock production database support ensures your mission-critical systems remain operational at all times. We provide continuous monitoring, immediate incident response, and proactive maintenance across Oracle, PostgreSQL, MS-SQL, MongoDB, and other enterprise database platforms. Our team handles everything from performance alerts to emergency recovery, ensuring minimal downtime and maximum data availability.",
+      "q2": "High Availability & Fault-Tolerant Database Operations",
+      "a2": "We design, implement, and manage high-availability database architectures including active-passive clustering, multi-node replication, automatic failover, and geo-distributed setups. Our solutions ensure your databases maintain continuous service even during hardware failures, network issues, or planned maintenance windows. We work with Patroni, PgBouncer, Oracle RAC, Always On, and other HA technologies.",
+      "q3": "Incident Response & Rapid Recovery (SLA-Driven)",
+      "a3": "Our SLA-driven incident response framework ensures rapid detection, diagnosis, and resolution of database issues. We maintain strict response time commitments — from P1 critical incidents (15-minute response) to P4 informational requests. Our recovery procedures include automated alerting, runbook execution, root cause analysis, and post-incident reviews to prevent recurrence.",
+      "q4": "Proactive Database Health Monitoring",
+      "a4": "We implement comprehensive monitoring solutions that track database performance metrics, resource utilization, query execution patterns, and anomaly detection in real time. Our proactive approach identifies potential issues before they impact production — including tablespace growth trends, connection pool saturation, lock contention, and replication lag.",
+      "q5": "Performance & Stability Assurance",
+      "a5": "Our performance assurance program combines continuous benchmarking, workload analysis, and trend forecasting to maintain optimal database performance. We establish performance baselines, monitor deviations, and implement corrective measures proactively. This includes regular health checks, capacity reviews, and stability assessments."
+    },
+    "engineering": {
+      "title": "Advanced Database Engineering & Optimization",
+      "q1": "Advanced Performance Tuning & Query Optimization",
+      "a1": "Our database engineers perform deep-dive performance analysis including execution plan optimization, index strategy redesign, query rewriting, and statistics management. We use AWR/ASH reports (Oracle), pg_stat_statements (PostgreSQL), Query Store (SQL Server), and equivalent tools. Results typically include 50-90% improvement in critical query response times.",
+      "q2": "Capacity Planning & Growth Forecasting",
+      "a2": "We provide data-driven capacity planning that combines historical growth analysis, workload trend modeling, and business projection mapping. Our forecasting covers storage, compute, memory, and I/O requirements — helping you plan infrastructure investments months or years ahead.",
+      "q3": "Database Architecture Review & Redesign",
+      "a3": "Our architecture review evaluates your current database topology, schema design, partitioning strategy, and infrastructure layout against industry best practices. We identify bottlenecks, single points of failure, and scalability limitations, then deliver a comprehensive redesign plan.",
+      "q4": "Complex Migration & Upgrade Engineering",
+      "a4": "We engineer and execute complex database migrations including cross-platform transitions (Oracle to PostgreSQL, SQL Server to PostgreSQL), major version upgrades, and cloud migrations. Our methodology ensures zero or near-zero downtime during transition with thorough assessment, schema conversion, data validation, and phased cutover planning.",
+      "q5": "Cross-Platform & Hybrid Database Operations",
+      "a5": "We manage heterogeneous database environments spanning multiple platforms (Oracle, PostgreSQL, SQL Server, MongoDB, Cassandra) and deployment models (on-premises, cloud, hybrid). Our unified operational framework provides consistent monitoring, maintenance, and optimization across your entire data estate.",
+      "q6": "Storage, IO & Infrastructure-Aware Optimization",
+      "a6": "Our infrastructure-aware optimization addresses the full stack — from database configuration to storage subsystems and I/O patterns. We analyze disk throughput, IOPS profiles, memory pressure, and network latency to ensure maximum performance. This includes tablespace optimization, WAL/redo log tuning, and buffer pool configuration."
+    },
+    "governance": {
+      "title": "Enterprise Database Governance, Security & Reliability",
+      "q1": "Knowledge Transfer & Operational Documentation",
+      "a1": "We create and maintain comprehensive operational documentation including runbooks, architecture diagrams, recovery procedures, and troubleshooting guides. Our knowledge transfer programs ensure your internal teams can independently manage day-to-day operations while our experts remain available for escalations.",
+      "q2": "Change Management & Release Governance",
+      "a2": "Our change management framework ensures all database modifications — schema changes, configuration updates, patch applications, and version upgrades — follow a structured review, approval, and rollback process. We implement automated change tracking, impact analysis, and deployment pipelines that minimize risk while maintaining agility.",
+      "q3": "Compliance, Audit Readiness & Risk Mitigation",
+      "a3": "We help organizations achieve and maintain compliance with regulatory standards including GDPR, PCI-DSS, SOX, HIPAA, and local data protection laws. Our services include audit trail implementation, access logging, data classification, privacy impact assessments, and automated compliance reporting.",
+      "q4": "Backup Strategy Engineering & Recovery Validation",
+      "a4": "We design and implement enterprise-grade backup strategies including full, incremental, and continuous archiving solutions. Critically, we conduct regular recovery drills and validation testing to ensure your backups are actually recoverable — testing RPO/RTO targets against real-world scenarios. Tools include pgBackRest, RMAN, and custom solutions.",
+      "q5": "Data Integrity, Consistency & Reliability Management",
+      "a5": "Our data integrity management ensures your databases maintain consistency across transactions, replicas, and backup copies. We implement checksum validation, constraint enforcement, referential integrity monitoring, and cross-system reconciliation processes. Regular integrity audits detect corruption or inconsistencies before they impact business operations.",
+      "q6": "Database Security Hardening & Access Control",
+      "a6": "We implement comprehensive database security including encryption at rest and in transit (Oracle TDE, PostgreSQL pgcrypto), fine-grained access control, privilege management, SQL injection prevention, and vulnerability patching. Our security hardening covers network isolation, audit logging, data masking (DataSunrise), and secrets management (HashiCorp Vault)."
+    }
+  }
+}

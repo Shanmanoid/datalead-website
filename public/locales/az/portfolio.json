@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Portfolio",
+    "subtitle": "Uğurlu layihə tətbiqlərimizi araşdırın."
+  },
+  "section": {
+    "title": "İşlərimiz",
+    "subtitle": "Müxtəlif sahələrdə ekspertizamızı nümayiş etdirən layihələr seçməsi."
+  },
+  "filters": {
+    "all": "Hamısı",
+    "database": "Verilənlər bazası",
+    "migration": "Miqrasiya",
+    "platform": "Data platforması",
+    "analytics": "Analitika"
+  },
+  "projects": {
+    "p1": { "title": "Bank üçün korporativ DWH", "desc": "Azərbaycanın aparıcı banklarından biri üçün yüksək performanslı data anbarının layihələndirilməsi və quraşdırılması." },
+    "p2": { "title": "Oracle-dən PostgreSQL-ə miqrasiya", "desc": "Kritik bank sistemlərinin Oracle-dən PostgreSQL-ə sıfır fasiləsizliklə uğurlu miqrasiyası, lisenziya xərclərinin 70% azaldılması." },
+    "p3": { "title": "IOMETE Lakehouse quraşdırılması", "desc": "Dövlət qurumu üçün IOMETE ilə tam Data Lakehouse platformasının quraşdırılması." },
+    "p4": { "title": "Real vaxt BI paneli", "desc": "Enerji şirkəti üçün Power BI və Tableau ilə hərtərəfli panellərin qurulması." },
+    "p5": { "title": "NoSQL klaster optimallaşdırması", "desc": "Telekommunikasiya şirkəti üçün MongoDB klasterinin yenidən dizaynı və optimallaşdırılması." },
+    "p6": { "title": "ETL proseslərinin modernləşdirilməsi", "desc": "Köhnə ETL proseslərinin Apache Spark və IOMETE ilə modernləşdirilməsi." }
+  }
+}

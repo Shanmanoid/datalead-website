@@ -1,0 +1,426 @@
+{
+  "hero": {
+    "badge": "Enterprise Data Resilience",
+    "title": "Protecting Revenue, Ensuring Continuity",
+    "titleHighlight": "Enabling AI-Ready Growth",
+    "subtitle": "Enterprise data resilience for mission-critical organizations — from operational stability to scalable AI foundations."
+  },
+  "riskReality": {
+    "title": "The New Enterprise Risk Reality",
+    "subtitle": "Data infrastructure failure directly impacts revenue and strategic growth.",
+    "stats": {
+      "downtime": { "value": "$300K–$1M", "unit": "per hour", "label": "Average enterprise downtime cost" },
+      "aiFail": { "value": "Up to 60%", "unit": "", "label": "AI initiatives fail before reaching production scale" },
+      "cloudOverspend": { "value": "20–30%", "unit": "overspend", "label": "From inefficient architecture and poor governance" },
+      "fines": { "value": "Multi-million", "unit": "dollar fines", "label": "From non-compliance and data breaches" }
+    },
+    "conclusion": "Operational instability is financial risk"
+  },
+  "priorities": {
+    "title": "What Resilient Organizations Prioritize",
+    "subtitle": "Resilience is a business strategy — not an IT feature.",
+    "items": {
+      "regulatory": { "title": "Regulatory Alignment", "desc": "Governance embedded into infrastructure" },
+      "operational": { "title": "Operational Resilience", "desc": "Systems designed to withstand failure" },
+      "continuity": { "title": "Business Continuity", "desc": "Protecting revenue from operational disruption" },
+      "cost": { "title": "Cost Predictability", "desc": "Infrastructure aligned with financial planning" },
+      "ai": { "title": "AI-Ready Foundations", "desc": "Scalable, governed data environments" }
+    }
+  },
+  "framework": {
+    "title": "Our Enterprise Resilience Framework",
+    "subtitle": "Resilience is embedded into operations — not applied after failure.",
+    "steps": {
+      "prevention": { "title": "Prevention", "desc": "Reduce incident probability" },
+      "protection": { "title": "Protection", "desc": "Secure infrastructure and data layers" },
+      "preparedness": { "title": "Preparedness", "desc": "Operational readiness and control" },
+      "response": { "title": "Response", "desc": "Rapid containment and downtime minimization" },
+      "recovery": { "title": "Recovery", "desc": "Restore systems without data loss" },
+      "governance": { "title": "Governance", "desc": "Compliance and executive visibility" }
+    },
+    "cycle": {
+      "title": "Continuous Operational Cycle",
+      "steps": ["Assessment", "Preparedness", "Response", "Recovery"]
+    }
+  },
+  "domains": {
+    "title": "From Framework to Execution",
+    "subtitle": "We translate enterprise resilience into 4 strategic capability domains.",
+    "missionCritical": {
+      "title": "Mission-Critical Database Operations",
+      "tagline": "When uptime drives revenue, resilience protects enterprise value.",
+      "deliver": {
+        "title": "What We Deliver",
+        "items": [
+          "24/7 database and infrastructure operations",
+          "High-availability and failover architecture",
+          "Disaster recovery orchestration",
+          "Structured incident response management",
+          "Continuous performance optimization"
+        ]
+      },
+      "performance": {
+        "title": "Proven Operational Performance",
+        "metrics": {
+          "response": { "value": "4-minute", "label": "critical incident response" },
+          "uptime": { "value": "99.98%", "label": "operational uptime track record" },
+          "incidents": { "value": "5,700+", "label": "incidents resolved" },
+          "databases": { "value": "1,700+", "label": "databases under management" },
+          "data": { "value": "8 PB+", "label": "enterprise data supported" }
+        }
+      },
+      "impact": {
+        "title": "Business Impact",
+        "items": [
+          "Revenue protection through minimized downtime",
+          "Predictable SLA performance",
+          "Reduced operational volatility",
+          "Executive visibility into infrastructure risk",
+          "Resilience protects value before disruption occurs"
+        ]
+      },
+      "caseStudy": {
+        "label": "Case Study",
+        "context": "Regional enterprise operating 24/7 with 500+ production databases and 3 PB of critical data. Infrastructure instability exposed revenue and regulatory risk.",
+        "challenge": {
+          "title": "Challenge",
+          "items": [
+            "12 hours average downtime per month",
+            "MTTR: 4.5 hours",
+            "Uptime: 96.2%",
+            "Estimated exposure: $250K per hour of outage"
+          ],
+          "summary": "Operational volatility impacting revenue protection and SLA confidence"
+        },
+        "intervention": {
+          "title": "Our Intervention",
+          "items": [
+            "24/7 mission-critical database operations",
+            "High-availability & failover architecture",
+            "Disaster recovery orchestration",
+            "Structured incident response discipline",
+            "Governance embedded into operations"
+          ]
+        },
+        "results": {
+          "title": "Measurable Impact",
+          "items": [
+            "Downtime reduced by 85%",
+            "MTTR improved from 4.5h to 25 min",
+            "Uptime increased to 99.98%",
+            "$2.5M annual financial exposure reduced"
+          ],
+          "conclusion": "Operational stability transformed from technical function into a controlled financial risk model"
+        }
+      }
+    },
+    "aiPlatforms": {
+      "title": "AI-Ready Data Platforms",
+      "tagline": "AI succeeds only on governed, scalable data foundations.",
+      "deliver": {
+        "title": "What We Deliver",
+        "items": [
+          "Unified data lakehouse architecture",
+          "Hybrid cloud and on-premise deployment",
+          "Structured and unstructured data integration",
+          "Scalable environments for analytics and machine learning",
+          "Architecture aligned with governance requirements"
+        ]
+      },
+      "whyMatters": {
+        "title": "Why It Matters",
+        "items": [
+          "Accelerates AI deployment",
+          "Reduces architectural complexity",
+          "Eliminates siloed data environments",
+          "Improves analytics performance",
+          "Aligns data strategy with growth objectives"
+        ]
+      },
+      "impact": {
+        "title": "Business Impact",
+        "items": [
+          "Faster decision-making",
+          "Lower infrastructure duplication costs",
+          "Scalable AI transformation",
+          "Stronger executive control over data assets"
+        ]
+      },
+      "caseStudy": {
+        "label": "Case Study",
+        "context": "National enterprise with fragmented data landscape: 12+ data sources. Separate BI, DWH and analytics environments; on-prem + cloud infrastructure.",
+        "challenge": {
+          "title": "Challenge",
+          "items": [
+            "3–6 months to launch new analytics use cases",
+            "Inconsistent KPIs across departments",
+            "High infrastructure duplication cost",
+            "No unified governance model"
+          ],
+          "summary": "AI initiatives failing to move beyond pilot stage"
+        },
+        "intervention": {
+          "title": "Our Intervention",
+          "items": [
+            "Unified lakehouse architecture implementation",
+            "Hybrid cloud + on-prem integration",
+            "Structured data ingestion (ETL / ELT automation)",
+            "Governance and lineage embedded by design",
+            "Scalable environment for analytics & machine learning"
+          ]
+        },
+        "results": {
+          "title": "Measurable Impact",
+          "items": [
+            "Analytics delivery time reduced by 65%",
+            "Infrastructure duplication reduced by 40%",
+            "AI use cases moved from pilot to production in 3 months",
+            "Data processing performance improved by 55%"
+          ],
+          "conclusion": "Data platform transformed from fragmented infrastructure into a scalable AI foundation aligned with business growth"
+        }
+      }
+    },
+    "dataEngineering": {
+      "title": "Automated Data Engineering & Governance",
+      "tagline": "Trusted data is the foundation of every reliable decision.",
+      "deliver": {
+        "title": "What We Deliver",
+        "items": [
+          "Structured and versioned ETL / ELT architecture",
+          "Automated pipeline orchestration",
+          "Deterministic data transformations",
+          "Schema evolution control",
+          "Data validation and monitoring",
+          "End-to-end data lineage tracking"
+        ]
+      },
+      "whyMatters": {
+        "title": "Why It Matters",
+        "items": [
+          "Eliminates manual integration errors",
+          "Improves trust in BI and AI outputs",
+          "Reduces compliance and audit exposure",
+          "Enables scalable data growth without chaos"
+        ]
+      },
+      "impact": {
+        "title": "Business Impact",
+        "items": [
+          "Consistent data across departments",
+          "Faster analytics deployment",
+          "Reduced operational risk",
+          "Stronger regulatory confidence"
+        ]
+      },
+      "caseStudy": {
+        "label": "Case Study",
+        "context": "National enterprise with fragmented data landscape: 12+ data sources. Separate BI, DWH and analytics environments; on-prem + cloud infrastructure.",
+        "challenge": {
+          "title": "Challenge",
+          "items": [
+            "40% of analytics time spent on data reconciliation",
+            "Inconsistent KPIs across business units",
+            "Frequent manual pipeline failures",
+            "Limited audit traceability",
+            "Regulatory exposure due to weak data lineage"
+          ],
+          "summary": "Data environment lacked structure, control, and governance"
+        },
+        "intervention": {
+          "title": "Our Intervention",
+          "items": [
+            "Structured & versioned ETL / ELT architecture (dbt-based transformations)",
+            "Automated orchestration (Airflow pipelines)",
+            "Deterministic data modeling & testing framework",
+            "End-to-end data validation and monitoring",
+            "Embedded governance & lineage tracking"
+          ]
+        },
+        "results": {
+          "title": "Measurable Impact",
+          "items": [
+            "Manual data reconciliation reduced by 60%",
+            "Analytics deployment cycle shortened by 45%",
+            "Data inconsistencies reduced by 70%",
+            "Audit traceability improved to 100% lineage coverage",
+            "Operational risk exposure significantly reduced"
+          ],
+          "conclusion": "Data transformed from a fragmented operational burden into a controlled, trusted enterprise asset."
+        }
+      }
+    },
+    "modernization": {
+      "title": "Cost-Efficient Modernization",
+      "tagline": "Modern infrastructure reduces cost, risk, and vendor dependency.",
+      "deliver": {
+        "title": "What We Deliver",
+        "items": [
+          "Migration to open-source and cost-efficient data platforms",
+          "Zero-downtime upgrade strategies",
+          "Infrastructure performance optimization",
+          "Architecture redesign for scalability",
+          "Vendor lock-in reduction"
+        ]
+      },
+      "whyMatters": {
+        "title": "Why It Matters",
+        "items": [
+          "Reduces licensing and infrastructure expenses",
+          "Improves cost transparency and predictability",
+          "Enables scalable growth without exponential cost increase",
+          "Aligns IT strategy with financial planning"
+        ]
+      },
+      "impact": {
+        "title": "Business Impact",
+        "items": [
+          "Lower long-term operational expenditure",
+          "Improved ROI on data infrastructure",
+          "Sustainable scalability",
+          "Increased financial control"
+        ]
+      },
+      "caseStudy": {
+        "label": "Case Study",
+        "context": "A large enterprise operating on legacy proprietary database platforms faced rising licensing costs, infrastructure inefficiencies, and growing vendor dependency.",
+        "challenge": {
+          "title": "Challenge",
+          "items": [
+            "Annual licensing and support costs exceeding $1.2M",
+            "Infrastructure underutilization and performance bottlenecks",
+            "Vendor lock-in limiting strategic flexibility",
+            "Upgrade cycles causing operational risk",
+            "Cost growth outpacing business growth"
+          ],
+          "summary": "Technology spend lacked predictability and strategic alignment."
+        },
+        "intervention": {
+          "title": "Our Intervention",
+          "items": [
+            "Migration to open and cost-efficient data platforms",
+            "Zero-downtime upgrade strategy",
+            "Infrastructure performance optimization",
+            "Architecture redesign for scalable growth",
+            "Vendor lock-in reduction strategy"
+          ]
+        },
+        "results": {
+          "title": "Measurable Impact",
+          "items": [
+            "Licensing costs reduced by 60%",
+            "Infrastructure expenditure reduced by 35%",
+            "Performance improved by 40%",
+            "Vendor dependency significantly reduced"
+          ],
+          "conclusion": "IT infrastructure transformed from a cost center into a predictable, scalable financial asset"
+        }
+      }
+    }
+  },
+  "dellCaseStudy": {
+    "title": "Enterprise Case Study",
+    "subtitle": "Dell Technologies — enterprise lakehouse implementation",
+    "challenge": "Selecting and implementing a modern data platform aligned with product vision, scalability requirements, and cost efficiency — without disrupting ongoing operations.",
+    "whyDataLead": {
+      "title": "Why DataLead",
+      "items": [
+        "Architectural alignment with enterprise data strategy",
+        "Integration into mission-critical infrastructure",
+        "Operational discipline and rapid execution capability"
+      ]
+    },
+    "impact": {
+      "title": "Measurable Impact",
+      "items": [
+        "Millions saved annually through optimized architecture",
+        "3× faster implementation and execution cycle",
+        "Accelerated integration into enterprise data operations",
+        "Improved scalability and platform performance",
+        "Enterprise-grade execution under real-world constraints"
+      ]
+    }
+  },
+  "comparison": {
+    "title": "Why Not Internal IT or Generic Integrators?",
+    "colInternal": "Internal IT or Generic Integrators",
+    "colDataLead": "DataLead Consulting",
+    "rows": [
+      {
+        "internalTitle": "Broad focus, limited specialization",
+        "internalDesc": "Handle multiple IT domains — databases are not the core discipline.",
+        "dataLeadTitle": "Deep database specialization",
+        "dataLeadDesc": "Mission-critical data infrastructure is our core expertise."
+      },
+      {
+        "internalTitle": "Reactive operations",
+        "internalDesc": "Incident response often starts after disruption impacts the business.",
+        "dataLeadTitle": "Proactive resilience model",
+        "dataLeadDesc": "Failure prevention and rapid containment built into operations."
+      },
+      {
+        "internalTitle": "Vendor-driven decisions",
+        "internalDesc": "Architecture choices influenced by existing contracts or tool familiarity.",
+        "dataLeadTitle": "Vendor-neutral architecture",
+        "dataLeadDesc": "Solutions selected for business fit — not product preference."
+      },
+      {
+        "internalTitle": "Limited exposure to large-scale incidents",
+        "internalDesc": "Fewer real-world enterprise resilience scenarios.",
+        "dataLeadTitle": "Extensive enterprise-scale experience",
+        "dataLeadDesc": "Thousands of incidents managed across large, regulated environments."
+      },
+      {
+        "internalTitle": "Governance added later",
+        "internalDesc": "Compliance and reporting layered on top — not embedded by design.",
+        "dataLeadTitle": "Governance embedded by design",
+        "dataLeadDesc": "Compliance, visibility, and control integrated into daily operations."
+      }
+    ]
+  },
+  "whyDataLead": {
+    "title": "Why DataLead Consulting",
+    "subtitle": "Enterprise resilience requires experience, scale, and disciplined execution.",
+    "pillars": {
+      "team": {
+        "title": "Senior Engineering Team",
+        "items": [
+          "Certified database and infrastructure experts",
+          "Deep hands-on experience across enterprise-scale platforms"
+        ]
+      },
+      "architecture": {
+        "title": "Business-Aligned Architecture",
+        "desc": "Vendor-neutral decisions optimized for performance, compliance, and cost efficiency."
+      },
+      "scale": {
+        "title": "Proven Operational Scale",
+        "items": [
+          "Rapid incident response culture",
+          "Enterprise-grade uptime performance",
+          "Large-scale database and petabyte-level data environments under management"
+        ]
+      },
+      "expertise": {
+        "title": "25 Years of Enterprise Expertise",
+        "desc": "Long-standing experience in mission-critical and regulated environments."
+      }
+    }
+  },
+  "cta": {
+    "title": "Let's Discuss Collaboration",
+    "subtitle": "Ready to build enterprise data resilience? Let's explore how we can protect your revenue and enable growth.",
+    "button": "Contact Us"
+  },
+  "preview": {
+    "title": "Enterprise Data Resilience",
+    "subtitle": "Protecting revenue, ensuring continuity, and enabling AI-ready growth.",
+    "explore": "Explore Business Value",
+    "domains": {
+      "missionCritical": { "title": "Mission-Critical DB Operations", "desc": "Protects revenue and ensures operational continuity" },
+      "aiPlatforms": { "title": "AI-Ready Data Platforms", "desc": "Enables reliable analytics and scalable AI adoption" },
+      "dataEngineering": { "title": "Data Engineering & Governance", "desc": "Reduces integration risk and strengthens data trust" },
+      "modernization": { "title": "Cost-Efficient Modernization", "desc": "Improves cost predictability and long-term scalability" }
+    }
+  }
+}

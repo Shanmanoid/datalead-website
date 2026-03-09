@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "home": "Ana səhifə",
+    "about": "Haqqımızda",
+    "services": "Xidmətlər",
+    "portfolio": "Portfolio",
+    "prices": "Qiymətlər",
+    "team": "Komanda",
+    "clients": "Müştərilər",
+    "partners": "Partnyorlar",
+    "contact": "Əlaqə",
+    "docs": "Sənədlər",
+    "businessValue": "Biznes Dəyəri"
+  },
+  "footer": {
+    "description": "DataLead Consulting — 18+ il korporativ verilənlər idarəetməsi təcrübəsi. Biz təşkilatlara verilənlərini strateji aktivlərə çevirməyə kömək edirik.",
+    "quickLinks": "Sürətli keçidlər",
+    "services": "Xidmətlər",
+    "contactUs": "Əlaqə",
+    "rights": "Bütün hüquqlar qorunur."
+  },
+  "cta": {
+    "title": "Verilənlər infrastrukturunuzu transformasiya etməyə hazırsınız?",
+    "subtitle": "Ekspertlərimiz sizə miqyaslana bilən, təhlükəsiz və effektiv data həlləri qurmağa kömək edəcək.",
+    "button": "Bizimlə əlaqə"
+  },
+  "learnMore": "Ətraflı",
+  "backToServices": "Xidmətlərə qayıt",
+  "notFound": {
+    "message": "Axtardığınız səhifə tapılmadı.",
+    "backHome": "Ana səhifəyə"
+  },
+  "services": {
+    "dbSupport": { "title": "7/24 DB Dəstəyi", "description": "Bütün verilənlər bazalarının gecə-gündüz monitorinqi və idarə edilməsi." },
+    "postgresql": { "title": "PostgreSQL Xidmətləri", "description": "PostgreSQL-in tam quraşdırılması, miqrasiyası, optimallaşdırılması və dəstəyi." },
+    "dwh": { "title": "Data Anbarları və Data Gölləri", "description": "Korporativ data anbarlarının və data göllərinin layihələndirilməsi və qurulması." },
+    "nosql": { "title": "NoSQL Verilənlər Bazaları", "description": "MongoDB, Cassandra, HBase və digərlərinin idarə edilməsi və optimallaşdırılması." },
+    "migration": { "title": "DB Miqrasiyası", "description": "Platformalar arasında təhlükəsiz və problemsiz miqrasiya." },
+    "training": { "title": "DBA Təlimi", "description": "Verilənlər bazası administratorları üçün peşəkar təlim proqramları." },
+    "security": { "title": "DB Təhlükəsizliyi", "description": "Verilənlər bazası təhlükəsizliyinin hərtərəfli auditi və tətbiqi." },
+    "aiml": { "title": "Süni İntellekt və ML", "description": "ML modellərinin öyrədilməsi və yerləşdirilməsi üçün miqyaslana bilən mühitlər." },
+    "platform": { "title": "Data Platforması", "description": "Tam idarə olunan IOMETE data infrastrukturunun quraşdırılması və konfiqurasiyası." },
+    "etl": { "title": "ETL/ELT Boru Kəmərləri", "description": "Spark, dbt və IOMETE ilə istehsala hazır data boru kəmərləri." },
+    "bi": { "title": "BI və Analitika", "description": "Power BI, Tableau və Looker ilə real vaxt panelləri." },
+    "governance": { "title": "DB İdarəetməsi", "description": "Korporativ verilənlər bazası idarəetməsi, uyğunluq və dəyişiklik idarəetməsi." }
+  },
+  "serviceDetail": {
+    "problem": "Problem",
+    "solution": "Həll",
+    "whyNeed": "Niyə lazımdır",
+    "whatWeProvide": "Nə təqdim edirik",
+    "keyFeatures": "Əsas imkanlar",
+    "technologies": "Texnologiyalar"
+  },
+  "servicesPage": {
+    "hero": { "title": "Xidmətlərimiz", "subtitle": "Hər ölçüdə müəssisələr üçün hərtərəfli verilənlər idarəetmə və platforma həlləri." },
+    "database": { "title": "Verilənlər Bazası və İnfrastruktur", "subtitle": "Korporativ verilənlər bazalarının ekspert idarəetməsi, optimallaşdırılması və təhlükəsizliyi." },
+    "platform": { "title": "Data Platforması (IOMETE)", "subtitle": "IOMETE ilə müasir bulud-nativ Data Lakehouse həlləri." }
+  },
+  "pricesPage": {
+    "hero": { "title": "Qiymət Planları", "subtitle": "IOMETE Data Lakehouse platforması və konsaltinq xidmətləri üçün şəffaf qiymətlər." },
+    "iomete": { "title": "IOMETE Data Lakehouse", "subtitle": "Təşkilatınızın ehtiyaclarına uyğun planı seçin." },
+    "popular": "Ən populyar",
+    "consulting": {
+      "title": "Konsaltinq Xidmətləri",
+      "text": "Ənənəvi verilənlər bazası konsaltinq xidmətlərimiz hər layihə üçün fərdi qiymətləndirilir. Xüsusi təklifiniz üçün bizimlə əlaqə saxlayın.",
+      "cta": "Qiymət sorğusu"
+    }
+  },
+  "prices": {
+    "free": {
+      "name": "Pulsuz",
+      "feature1": "100 vCPU-ya qədər",
+      "feature2": "Self-hosted quraşdırma",
+      "feature3": "İcma dəstəyi",
+      "feature4": "Əsas funksiyalar",
+      "cta": "Başla"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "min": "Minimum $100,000/il",
+      "feature1": "Limitsiz vCPU",
+      "feature2": "Data maskalama",
+      "feature3": "Rol əsaslı təhlükəsizlik",
+      "feature4": "Audit jurnalı",
+      "feature5": "Enterprise dəstəyi",
+      "cta": "Satış ilə əlaqə"
+    },
+    "business": {
+      "name": "Business Critical",
+      "min": "Minimum $250,000/il",
+      "feature1": "Limitsiz vCPU",
+      "feature2": "Multi-region quraşdırma",
+      "feature3": "Ayrılmış mühəndislər",
+      "feature4": "Enterprise dəstəyi",
+      "feature5": "Fərdi SLA",
+      "cta": "Satış ilə əlaqə"
+    }
+  }
+}

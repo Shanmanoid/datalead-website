@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Komandamız",
+    "subtitle": "DataLead-in uğurunun arxasında duran ekspertlərlə tanış olun."
+  },
+  "section": {
+    "title": "Data ekspertləri",
+    "subtitle": "Korporativ data texnologiyaları üzrə dərin təcrübəyə malik sertifikatlı peşəkarlar."
+  },
+  "members": {
+    "m1": {
+      "name": "Baş direktor",
+      "role": "CEO və təsisçi",
+      "bio": "Korporativ data idarəetməsində 18+ il təcrübə. DataLead-i Azərbaycana dünya səviyyəli verilənlər bazası konsaltinqi gətirmək missiyası ilə qurub.",
+      "expertise": ["Strategiya", "Enterprise", "Oracle", "Liderlik"]
+    },
+    "m2": {
+      "name": "Texniki direktor",
+      "role": "CTO",
+      "bio": "Müasir data platformaları və bulud arxitekturası üzrə ekspert. Texniki vizyona və IOMETE tərəfdaşlığı inteqrasiyasına rəhbərlik edir.",
+      "expertise": ["Cloud", "IOMETE", "Arxitektura", "Spark"]
+    },
+    "m3": {
+      "name": "Baş DBA",
+      "role": "Baş verilənlər bazası administratoru",
+      "bio": "Dövlət və bank sektoru üçün kritik əhəmiyyətli DB-lərin idarə edilməsində 15+ il təcrübə. Oracle RAC və PostgreSQL HA klasterləri üzrə ixtisaslaşıb.",
+      "expertise": ["Oracle", "PostgreSQL", "HA", "Performance"]
+    },
+    "m4": {
+      "name": "Data mühəndisi",
+      "role": "Baş data mühəndisi",
+      "bio": "Miqyaslana bilən ETL/ELT boru kəmərləri və data gölü arxitekturaları layihələndirir və qurur. Apache Spark və dbt üzrə ekspert.",
+      "expertise": ["ETL", "Spark", "dbt", "Python"]
+    },
+    "m5": {
+      "name": "Həllər arxitektoru",
+      "role": "Korporativ həllər arxitektoru",
+      "bio": "Biznes tələblərini texniki həllərlə birləşdirir. DWH dizaynı və data platforması miqrasiyası üzrə ixtisaslaşıb.",
+      "expertise": ["DWH", "Miqrasiya", "MS-SQL", "Denodo"]
+    },
+    "m6": {
+      "name": "Təhlükəsizlik mütəxəssisi",
+      "role": "DB təhlükəsizlik eksperti",
+      "bio": "Bütün müştəri mühitlərində data qorunması və uyğunluğu təmin edir. DataSunrise və şifrləmə texnologiyaları üzrə ekspert.",
+      "expertise": ["Təhlükəsizlik", "Uyğunluq", "Şifrləmə", "Audit"]
+    }
+  }
+}

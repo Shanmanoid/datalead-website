@@ -1,0 +1,100 @@
+{
+  "services": {
+    "dbSupport": {
+      "problem": "Database downtime costs enterprises thousands of dollars per minute. Without round-the-clock monitoring, critical issues can go undetected until they cause major outages.",
+      "solution": "Our 24/7 database support team provides proactive monitoring, instant incident response, and continuous optimization to keep your databases running at peak performance.",
+      "f1": "24/7 proactive monitoring and alerting",
+      "f2": "Performance tuning and query optimization",
+      "f3": "Backup and disaster recovery management",
+      "f4": "Security patching and updates"
+    },
+    "postgresql": {
+      "problem": "Many organizations struggle with PostgreSQL deployment, missing out on its full potential due to improper configuration, lack of high availability, and suboptimal performance.",
+      "solution": "We provide end-to-end PostgreSQL services — from initial deployment and configuration to high-availability setup, performance tuning, and ongoing maintenance.",
+      "f1": "High-availability cluster setup (Patroni)",
+      "f2": "Performance optimization and query tuning",
+      "f3": "Connection pooling with PgBouncer",
+      "f4": "Automated backup with pgBackRest"
+    },
+    "dwh": {
+      "problem": "Organizations accumulate vast amounts of data across multiple systems, but struggle to unify and analyze it effectively for strategic decision-making.",
+      "solution": "We design and build enterprise data warehouses and data lakes that integrate data from all your sources into a single, queryable platform for analytics and reporting.",
+      "f1": "End-to-end DWH architecture design",
+      "f2": "Data lake implementation with Apache technologies",
+      "f3": "ETL/ELT pipeline development",
+      "f4": "Data quality and governance frameworks"
+    },
+    "nosql": {
+      "problem": "NoSQL databases require specialized expertise for cluster management, data modeling, and performance optimization that differs significantly from traditional RDBMS.",
+      "solution": "Our NoSQL experts handle deployment, scaling, performance tuning, and operational management of MongoDB, Cassandra, HBase, and other NoSQL platforms.",
+      "f1": "Cluster deployment and scaling",
+      "f2": "Data modeling and schema design",
+      "f3": "Performance monitoring and optimization",
+      "f4": "Backup, recovery, and replication"
+    },
+    "migration": {
+      "problem": "Database migrations carry significant risk — data loss, extended downtime, and application compatibility issues can cripple business operations.",
+      "solution": "We execute safe, methodical database migrations with minimal downtime, handling everything from assessment and planning to execution and post-migration validation.",
+      "f1": "Comprehensive pre-migration assessment",
+      "f2": "Schema and data conversion",
+      "f3": "Zero-downtime migration strategies",
+      "f4": "Post-migration validation and optimization"
+    },
+    "training": {
+      "problem": "In-house database teams often lack specialized skills needed to manage modern database platforms effectively, leading to suboptimal performance and security gaps.",
+      "solution": "Our professional training programs equip your DBAs with hands-on skills across Oracle, PostgreSQL, MS-SQL, and NoSQL platforms, customized to your organization's needs.",
+      "f1": "Customized curriculum for your tech stack",
+      "f2": "Hands-on labs and real-world scenarios",
+      "f3": "Certification preparation (Oracle, PostgreSQL)",
+      "f4": "On-site and remote training options"
+    },
+    "security": {
+      "problem": "Database breaches can expose sensitive data, result in regulatory fines, and damage organizational reputation. Many databases have undetected security vulnerabilities.",
+      "solution": "We provide comprehensive database security services including audits, encryption, access control, masking, and compliance implementation to protect your critical data.",
+      "f1": "Security audit and vulnerability assessment",
+      "f2": "Data encryption (TDE, SSL/TLS)",
+      "f3": "Access control and privilege management",
+      "f4": "Data masking and compliance (GDPR, PCI-DSS)"
+    },
+    "aiml": {
+      "problem": "Organizations want to leverage AI and machine learning but lack the scalable data infrastructure and expertise needed to train and deploy models effectively.",
+      "solution": "We build scalable ML environments integrated with your data platform, enabling data scientists to train, deploy, and monitor models at enterprise scale.",
+      "f1": "ML-ready data platform setup",
+      "f2": "Feature engineering pipelines",
+      "f3": "Model training infrastructure (Spark MLlib)",
+      "f4": "Model deployment and monitoring"
+    },
+    "platform": {
+      "problem": "Traditional data infrastructure is fragmented, expensive, and difficult to scale. Organizations need a unified platform that handles storage, processing, and analytics.",
+      "solution": "As official IOMETE partners, we deploy and configure fully managed data lakehouse infrastructure with scalable compute, secure storage, and built-in analytics capabilities.",
+      "f1": "IOMETE platform deployment and configuration",
+      "f2": "Scalable compute resource management",
+      "f3": "Secure data storage with Apache Iceberg",
+      "f4": "Built-in SQL analytics and Spark processing"
+    },
+    "etl": {
+      "problem": "Legacy ETL processes are slow, brittle, and expensive to maintain. Modern data volumes require scalable, reliable pipelines that can handle diverse data sources.",
+      "solution": "We design and build production-grade ETL/ELT pipelines using Apache Spark, dbt, and IOMETE that transform data from any source reliably and efficiently.",
+      "f1": "Pipeline architecture and design",
+      "f2": "Spark-based data transformations",
+      "f3": "dbt models for analytics engineering",
+      "f4": "Orchestration with Airflow"
+    },
+    "bi": {
+      "problem": "Decision-makers lack timely access to actionable data insights. Disconnected reports and manual processes delay critical business decisions.",
+      "solution": "We integrate your data platform with leading BI tools to create real-time dashboards, automated reports, and self-service analytics for your entire organization.",
+      "f1": "Power BI dashboard development",
+      "f2": "Tableau visualization and reporting",
+      "f3": "Real-time KPI monitoring",
+      "f4": "Self-service analytics enablement"
+    },
+    "governance": {
+      "problem": "Without proper governance, databases become inconsistent, non-compliant, and vulnerable. Change management gaps lead to outages and audit failures.",
+      "solution": "We implement enterprise-grade database governance frameworks covering change management, compliance, backup strategies, and security policies across your organization.",
+      "f1": "Change management processes",
+      "f2": "Compliance and audit frameworks",
+      "f3": "Backup and disaster recovery planning",
+      "f4": "Security policy implementation"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "title": "Portfolio",
+    "subtitle": "Explore our successful project implementations."
+  },
+  "section": {
+    "title": "Our Work",
+    "subtitle": "A selection of projects showcasing our expertise across different domains."
+  },
+  "filters": {
+    "all": "All",
+    "database": "Database",
+    "migration": "Migration",
+    "platform": "Data Platform",
+    "analytics": "Analytics"
+  },
+  "projects": {
+    "p1": { "title": "Enterprise DWH for Banking", "desc": "Designed and deployed a high-performance data warehouse for one of Azerbaijan's leading banks, processing millions of transactions daily." },
+    "p2": { "title": "Oracle to PostgreSQL Migration", "desc": "Successfully migrated critical banking systems from Oracle to PostgreSQL with zero downtime, reducing licensing costs by 70%." },
+    "p3": { "title": "IOMETE Lakehouse Deployment", "desc": "Deployed a full data lakehouse platform using IOMETE for a government agency, enabling unified analytics across multiple data sources." },
+    "p4": { "title": "Real-time BI Dashboard", "desc": "Built comprehensive Power BI and Tableau dashboards for an energy company, providing real-time operational insights." },
+    "p5": { "title": "NoSQL Cluster Optimization", "desc": "Redesigned and optimized a MongoDB cluster for a telecom company, improving query performance by 5x." },
+    "p6": { "title": "ETL Pipeline Modernization", "desc": "Modernized legacy ETL processes using Apache Spark and IOMETE, reducing data processing time from hours to minutes." }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "services": {
+    "dbSupport": {
+      "problem": "Verilənlər bazasının dayanması müəssisələrə dəqiqədə minlərlə dollara başa gəlir. Gecə-gündüz monitorinq olmadan kritik problemlər aşkar olunmadan qala bilər.",
+      "solution": "7/24 DB dəstək komandamız proaktiv monitorinq, ani insidentlərə reaksiya və fasiləsiz optimallaşdırma ilə verilənlər bazalarınızın ən yüksək performansda işləməsini təmin edir.",
+      "f1": "7/24 proaktiv monitorinq və xəbərdarlıqlar",
+      "f2": "Performans optimallaşdırılması və sorğu tənzimlənməsi",
+      "f3": "Ehtiyat nüsxə və fəlakət bərpası idarəetməsi",
+      "f4": "Təhlükəsizlik yamaqları və yeniləmələr"
+    },
+    "postgresql": {
+      "problem": "Bir çox təşkilat düzgün olmayan konfiqurasiya, yüksək əlçatanlığın olmaması və suboptimal performans səbəbindən PostgreSQL-in tam potensialını istifadə edə bilmir.",
+      "solution": "İlkin quraşdırmadan yüksək əlçatanlıq quraşdırmasına, performans optimallaşdırmasına və davamlı texniki xidmətə qədər tam PostgreSQL xidmətləri təqdim edirik.",
+      "f1": "Yüksək əlçatanlıqlı klaster quraşdırması (Patroni)",
+      "f2": "Performans optimallaşdırması və sorğu tənzimlənməsi",
+      "f3": "PgBouncer ilə əlaqə pulinqi",
+      "f4": "pgBackRest ilə avtomatik ehtiyat nüsxə"
+    },
+    "dwh": {
+      "problem": "Təşkilatlar müxtəlif sistemlərdən böyük həcmdə data toplayır, lakin strateji qərar qəbulu üçün onları effektiv birləşdirə və təhlil edə bilmir.",
+      "solution": "Bütün mənbələrinizdən datanı analitika və hesabat üçün vahid sorğulana bilən platformaya birləşdirən korporativ data anbarları və data gölləri layihələndiririk və qururuq.",
+      "f1": "Başdan-sona DWH arxitektura dizaynı",
+      "f2": "Apache texnologiyaları ilə data gölü tətbiqi",
+      "f3": "ETL/ELT boru kəməri inkişafı",
+      "f4": "Data keyfiyyəti və idarəetmə çərçivələri"
+    },
+    "nosql": {
+      "problem": "NoSQL verilənlər bazaları klaster idarəetməsi, data modelləşdirməsi və performans optimallaşdırması üçün ənənəvi RDBMS-dən əhəmiyyətli dərəcədə fərqlənən ixtisaslaşdırılmış ekspertiza tələb edir.",
+      "solution": "NoSQL ekspertlərimiz MongoDB, Cassandra, HBase və digər NoSQL platformalarının quraşdırılması, miqyaslandırılması, performans optimallaşdırılması və operativ idarə edilməsini təmin edir.",
+      "f1": "Klaster quraşdırılması və miqyaslandırılması",
+      "f2": "Data modelləşdirmə və sxem dizaynı",
+      "f3": "Performans monitorinqi və optimallaşdırılması",
+      "f4": "Ehtiyat nüsxə, bərpa və replikasiya"
+    },
+    "migration": {
+      "problem": "Verilənlər bazası miqrasiyaları əhəmiyyətli risk daşıyır — data itkisi, uzun fasilə və proqram uyğunluğu problemləri biznes əməliyyatlarını iflic edə bilər.",
+      "solution": "Qiymətləndirmə və planlamadan icra və post-miqrasiya validasiyasına qədər minimum fasilə ilə təhlükəsiz, metodik verilənlər bazası miqrasiyaları həyata keçiririk.",
+      "f1": "Hərtərəfli pre-miqrasiya qiymətləndirməsi",
+      "f2": "Sxem və data konversiyası",
+      "f3": "Sıfır fasiləsizlik miqrasiya strategiyaları",
+      "f4": "Post-miqrasiya validasiyası və optimallaşdırılması"
+    },
+    "training": {
+      "problem": "Daxili verilənlər bazası komandaları çox vaxt müasir DB platformalarını effektiv idarə etmək üçün lazım olan ixtisaslaşdırılmış bacarıqlara malik olmur.",
+      "solution": "Peşəkar təlim proqramlarımız DBA-larınızı Oracle, PostgreSQL, MS-SQL və NoSQL platformaları üzrə praktik bacarıqlarla təchiz edir.",
+      "f1": "Texnoloji stekinizə uyğunlaşdırılmış kurikulum",
+      "f2": "Praktik laboratoriyalar və real ssenarilər",
+      "f3": "Sertifikasiya hazırlığı (Oracle, PostgreSQL)",
+      "f4": "Yerində və uzaqdan təlim seçimləri"
+    },
+    "security": {
+      "problem": "DB pozuntuları həssas dataların ifşasına, tənzimləyici cərimələrə və reputasiya itkisinə gətirib çıxara bilər. Bir çox verilənlər bazalarında aşkar edilməmiş təhlükəsizlik boşluqları var.",
+      "solution": "Kritik datalarınızı qorumaq üçün audit, şifrələmə, giriş nəzarəti, maskalama və uyğunluq tətbiqi daxil olmaqla hərtərəfli DB təhlükəsizlik xidmətləri təqdim edirik.",
+      "f1": "Təhlükəsizlik auditi və zəiflik qiymətləndirməsi",
+      "f2": "Data şifrələmə (TDE, SSL/TLS)",
+      "f3": "Giriş nəzarəti və imtiyaz idarəetməsi",
+      "f4": "Data maskalama və uyğunluq (GDPR, PCI-DSS)"
+    },
+    "aiml": {
+      "problem": "Təşkilatlar süni intellekt və maşın öyrənməsindən istifadə etmək istəyir, lakin modelləri effektiv öyrətmək və yerləşdirmək üçün lazım olan miqyaslana bilən data infrastrukturuna malik deyil.",
+      "solution": "Data platformanızla inteqrasiya olunmuş miqyaslana bilən ML mühitləri qururuq ki, data mütəxəssisləri korporativ miqyasda modelləri öyrədə, yerləşdirə və monitorinq edə bilsinlər.",
+      "f1": "ML üçün hazır data platforması quraşdırması",
+      "f2": "Xüsusiyyət mühəndisliyi boru kəmərləri",
+      "f3": "Model öyrətmə infrastrukturu (Spark MLlib)",
+      "f4": "Model yerləşdirilməsi və monitorinqi"
+    },
+    "platform": {
+      "problem": "Ənənəvi data infrastrukturu parçalanmış, bahalı və miqyaslandırılması çətindir. Təşkilatlara saxlama, emal və analitikanı idarə edən vahid platforma lazımdır.",
+      "solution": "Rəsmi IOMETE tərəfdaşları olaraq miqyaslana bilən hesablama, təhlükəsiz saxlama və daxili analitika imkanları ilə tam idarə olunan Data Lakehouse infrastrukturu quraşdırırıq.",
+      "f1": "IOMETE platformasının quraşdırılması və konfiqurasiyası",
+      "f2": "Miqyaslana bilən hesablama resurslarının idarə edilməsi",
+      "f3": "Apache Iceberg ilə təhlükəsiz data saxlama",
+      "f4": "Daxili SQL analitika və Spark emalı"
+    },
+    "etl": {
+      "problem": "Köhnə ETL prosesləri yavaş, kövrək və texniki xidməti bahadır. Müasir data həcmləri miqyaslana bilən, etibarlı boru kəmərləri tələb edir.",
+      "solution": "Apache Spark, dbt və IOMETE istifadə edərək istənilən mənbədən datanı etibarlı və effektiv şəkildə transformasiya edən istehsala hazır ETL/ELT boru kəmərləri layihələndiririk və qururuq.",
+      "f1": "Boru kəməri arxitekturası və dizaynı",
+      "f2": "Spark əsaslı data transformasiyaları",
+      "f3": "Analitik mühəndislik üçün dbt modelləri",
+      "f4": "Airflow ilə orkestrləşdirmə"
+    },
+    "bi": {
+      "problem": "Qərar qəbuledicilər vaxtında hərəkətə keçə bilən data anlayışlarına çıxış əldə edə bilmirlər. Ayrı-ayrı hesabatlar və manual proseslər kritik biznes qərarlarını gecikdirir.",
+      "solution": "Real vaxt panelləri, avtomatlaşdırılmış hesabatlar və bütün təşkilatınız üçün özünəxidmət analitikası yaratmaq üçün data platformanızı aparıcı BI alətləri ilə inteqrasiya edirik.",
+      "f1": "Power BI panel inkişafı",
+      "f2": "Tableau vizuallaşdırma və hesabatı",
+      "f3": "Real vaxt KPI monitorinqi",
+      "f4": "Özünəxidmət analitikasının tətbiqi"
+    },
+    "governance": {
+      "problem": "Düzgün idarəetmə olmadan verilənlər bazaları uyğunsuz, standartlara cavab verməyən və həssas olur. Dəyişiklik idarəetmə boşluqları nasazlıqlara gətirir.",
+      "solution": "Dəyişiklik idarəetməsi, uyğunluq, ehtiyat nüsxə strategiyaları və təhlükəsizlik siyasətlərini əhatə edən korporativ səviyyəli DB idarəetmə çərçivələri tətbiq edirik.",
+      "f1": "Dəyişiklik idarəetmə prosesləri",
+      "f2": "Uyğunluq və audit çərçivələri",
+      "f3": "Ehtiyat nüsxə və fəlakət bərpası planlaması",
+      "f4": "Təhlükəsizlik siyasətinin tətbiqi"
+    }
+  }
+}

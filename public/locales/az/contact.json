@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Əlaqə",
+    "subtitle": "Verilənlər infrastrukturunuzu necə transformasiya edə biləcəyimizi müzakirə edək."
+  },
+  "formTitle": "Bizə yazın",
+  "form": {
+    "name": "Ad Soyad",
+    "namePlaceholder": "Adınız Soyadınız",
+    "email": "E-poçt",
+    "emailPlaceholder": "email@company.com",
+    "phone": "Telefon",
+    "phonePlaceholder": "+994 XX XXX XX XX",
+    "company": "Şirkət",
+    "companyPlaceholder": "Şirkət adı",
+    "service": "Maraqlandığınız xidmət",
+    "servicePlaceholder": "Xidmət seçin...",
+    "serviceOptions": {
+      "dbSupport": "7/24 DB Dəstəyi",
+      "postgresql": "PostgreSQL Xidmətləri",
+      "platform": "Data Platforması (IOMETE)",
+      "etl": "ETL/ELT Boru Kəmərləri",
+      "bi": "BI və Analitika",
+      "other": "Digər"
+    },
+    "message": "Mesaj",
+    "messagePlaceholder": "Layihəniz və tələbləriniz haqqında bizə məlumat verin...",
+    "submit": "Mesaj göndər",
+    "successTitle": "Mesaj göndərildi!",
+    "successMessage": "Müraciətiniz üçün təşəkkür edirik. Komandamız 24 saat ərzində sizinlə əlaqə saxlayacaq."
+  },
+  "info": {
+    "address": "Ünvan",
+    "phone": "Telefon",
+    "email": "E-poçt",
+    "hours": "İş saatları",
+    "hoursValue": "B.e. - Cümə: 9:00 - 18:00"
+  },
+  "mapPlaceholder": "Google Maps — Aga Center BM, Xocalı pr. 55, Bakı"
+}

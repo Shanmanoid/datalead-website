@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "badge": "18+ il təcrübə",
+    "title": "Sizin verilənləriniz.",
+    "titleHighlight": "Bizim ekspertizamız.",
+    "subtitle": "Korporativ verilənlər bazası konsaltinqi, müasir data platforması quraşdırılması və qabaqcıl analitika — Azərbaycan və onun hüdudlarından kənar təşkilatlar üçün.",
+    "cta1": "Xidmətlərimiz",
+    "cta2": "Bizimlə əlaqə"
+  },
+  "stats": {
+    "years": "İllik təcrübə",
+    "clients": "Korporativ müştəri",
+    "projects": "Tamamlanmış layihə",
+    "support": "Dəstək mövcudluğu"
+  },
+  "servicesSection": {
+    "title": "Nə edirik",
+    "subtitle": "Ənənəvi verilənlər bazası idarəetməsindən müasir Data Lakehouse həllərinə qədər — biz tam spektri əhatə edirik.",
+    "viewAll": "Bütün xidmətlər"
+  },
+  "about": {
+    "badge": "DataLead haqqında",
+    "title": "2006-cı ildən etibarlı data ekspertləri",
+    "text": "DataLead Consulting — korporativ verilənlər bazası administrasiyası, data platforması quraşdırılması və qabaqcıl analitika sahəsində ixtisaslaşmış aparıcı data idarəetmə firmasıdır. Oracle, MS-SQL, PostgreSQL və açıq mənbəli texnologiyalar üzrə sertifikatlara sahibik."
+  },
+  "techCards": {
+    "oracle": { "desc": "Korporativ DB İdarəetmə və RAC" },
+    "postgresql": { "desc": "Açıq Mənbəli DB Platforması" },
+    "iomete": { "desc": "Müasir Data Lakehouse Həlli" },
+    "spark": { "desc": "Böyük Data Emal Mühərriki" }
+  },
+  "clients": {
+    "title": "Müştərilərimiz",
+    "subtitle": "Azərbaycanın aparıcı təşkilatları bizə etibar edir."
+  },
+  "partners": {
+    "title": "Texnoloji partnyorlar",
+    "subtitle": "Sənaye liderləri ilə strateji tərəfdaşlıqlar."
+  }
+}

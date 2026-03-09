@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "title": "Контакты",
+    "subtitle": "Давайте обсудим, как мы можем помочь трансформировать вашу инфраструктуру данных."
+  },
+  "formTitle": "Напишите нам",
+  "form": {
+    "name": "Полное имя",
+    "namePlaceholder": "Иван Иванов",
+    "email": "Email",
+    "emailPlaceholder": "ivan@company.com",
+    "phone": "Телефон",
+    "phonePlaceholder": "+994 XX XXX XX XX",
+    "company": "Компания",
+    "companyPlaceholder": "Название компании",
+    "service": "Интересующая услуга",
+    "servicePlaceholder": "Выберите услугу...",
+    "serviceOptions": {
+      "dbSupport": "Поддержка БД 24/7",
+      "postgresql": "Услуги PostgreSQL",
+      "platform": "Платформа данных (IOMETE)",
+      "etl": "ETL/ELT конвейеры",
+      "bi": "BI и аналитика",
+      "other": "Другое"
+    },
+    "message": "Сообщение",
+    "messagePlaceholder": "Расскажите о вашем проекте и требованиях...",
+    "submit": "Отправить сообщение",
+    "successTitle": "Сообщение отправлено!",
+    "successMessage": "Спасибо за обращение. Наша команда свяжется с вами в течение 24 часов."
+  },
+  "info": {
+    "address": "Адрес",
+    "phone": "Телефон",
+    "email": "Электронная почта",
+    "hours": "Рабочие часы",
+    "hoursValue": "Пн - Пт: 9:00 - 18:00"
+  },
+  "mapPlaceholder": "Google Maps — БЦ Aga Center, пр. Ходжали 55, Баку"
+}

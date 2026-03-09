@@ -1,0 +1,255 @@
+{
+  "hero": {
+    "badge": "Korporativ Məlumat Dayanıqlığı",
+    "title": "Gəliri Qorumaq, Davamlılığı Təmin Etmək",
+    "titleHighlight": "AI-yə Hazır İnkişafı Mümkün Etmək",
+    "subtitle": "Missiya-kritik təşkilatlar üçün korporativ məlumat dayanıqlığı — əməliyyat sabitliyindən miqyaslanan AI əsaslarına qədər."
+  },
+  "riskReality": {
+    "title": "Yeni Korporativ Risk Reallığı",
+    "subtitle": "Məlumat infrastrukturu uğursuzluğu birbaşa gəlirə və strateji inkişafa təsir edir.",
+    "stats": {
+      "downtime": { "value": "$300K–$1M", "unit": "saatda", "label": "Orta korporativ dayanma xərci" },
+      "aiFail": { "value": "60%-ə qədər", "unit": "", "label": "AI təşəbbüsləri istehsal miqyasına çatmadan uğursuz olur" },
+      "cloudOverspend": { "value": "20–30%", "unit": "artıq xərc", "label": "Səmərəsiz arxitektura və zəif idarəetmədən" },
+      "fines": { "value": "Multimilyon", "unit": "dollar cərimələr", "label": "Uyğunsuzluq və məlumat pozuntularından" }
+    },
+    "conclusion": "Əməliyyat qeyri-sabitliyi maliyyə riskidir"
+  },
+  "priorities": {
+    "title": "Dayanıqlı Təşkilatların Prioritetləri",
+    "subtitle": "Dayanıqlılıq biznes strategiyasıdır — IT xüsusiyyəti deyil.",
+    "items": {
+      "regulatory": { "title": "Tənzimləmə Uyğunluğu", "desc": "İdarəetmə infrastruktura daxil edilib" },
+      "operational": { "title": "Əməliyyat Dayanıqlığı", "desc": "Uğursuzluğa davam gətirmək üçün hazırlanmış sistemlər" },
+      "continuity": { "title": "Biznes Davamlılığı", "desc": "Gəlirin əməliyyat pozuntularından qorunması" },
+      "cost": { "title": "Xərc Proqnozlaşdırılması", "desc": "Maliyyə planlaması ilə uyğunlaşdırılmış infrastruktur" },
+      "ai": { "title": "AI-yə Hazır Əsaslar", "desc": "Miqyaslanan, idarə olunan məlumat mühitləri" }
+    }
+  },
+  "framework": {
+    "title": "Korporativ Dayanıqlılıq Çərçivəmiz",
+    "subtitle": "Dayanıqlılıq əməliyyatlara daxil edilib — uğursuzluqdan sonra tətbiq edilmir.",
+    "steps": {
+      "prevention": { "title": "Qarşısını Alma", "desc": "İnsident ehtimalını azaltmaq" },
+      "protection": { "title": "Qoruma", "desc": "İnfrastruktur və məlumat qatlarını təmin etmək" },
+      "preparedness": { "title": "Hazırlıq", "desc": "Əməliyyat hazırlığı və nəzarət" },
+      "response": { "title": "Cavab", "desc": "Sürətli təcrid və dayanma minimuma endirmə" },
+      "recovery": { "title": "Bərpa", "desc": "Məlumat itkisi olmadan sistemləri bərpa etmək" },
+      "governance": { "title": "İdarəetmə", "desc": "Uyğunluq və icraçı görünürlük" }
+    },
+    "cycle": {
+      "title": "Davamlı Əməliyyat Dövrü",
+      "steps": ["Qiymətləndirmə", "Hazırlıq", "Cavab", "Bərpa"]
+    }
+  },
+  "domains": {
+    "title": "Çərçivədən İcraya",
+    "subtitle": "Korporativ dayanıqlılığı 4 strateji imkan sahəsinə çeviririk.",
+    "missionCritical": {
+      "title": "Missiya-Kritik Verilənlər Bazası Əməliyyatları",
+      "tagline": "İş vaxtı gəliri idarə edəndə, dayanıqlılıq korporativ dəyəri qoruyur.",
+      "deliver": {
+        "title": "Nə Təqdim Edirik",
+        "items": [
+          "24/7 verilənlər bazası və infrastruktur əməliyyatları",
+          "Yüksək əlçatanlıq və keçid arxitekturası",
+          "Fəlakətdən bərpa orkestrasiyası",
+          "Strukturlaşdırılmış insident cavab idarəetməsi",
+          "Davamlı performans optimallaşdırması"
+        ]
+      },
+      "performance": {
+        "title": "Sübut Edilmiş Əməliyyat Performansı",
+        "metrics": {
+          "response": { "value": "4 dəqiqə", "label": "kritik insident cavabı" },
+          "uptime": { "value": "99.98%", "label": "əməliyyat iş vaxtı" },
+          "incidents": { "value": "5,700+", "label": "həll edilmiş insidentlər" },
+          "databases": { "value": "1,700+", "label": "idarə olunan verilənlər bazaları" },
+          "data": { "value": "8 PB+", "label": "dəstəklənən korporativ məlumat" }
+        }
+      },
+      "impact": {
+        "title": "Biznes Təsiri",
+        "items": [
+          "Minimum dayanma ilə gəlir qorunması",
+          "Proqnozlaşdırıla bilən SLA performansı",
+          "Azaldılmış əməliyyat dəyişkənliyi",
+          "İnfrastruktur riski üzrə icraçı görünürlük",
+          "Dayanıqlılıq pozuntudan əvvəl dəyəri qoruyur"
+        ]
+      },
+      "caseStudy": {
+        "label": "Keys Stadi",
+        "context": "24/7 işləyən regional müəssisə, 500+ istehsal verilənlər bazası və 3 PB kritik məlumat. İnfrastruktur qeyri-sabitliyi gəlir və tənzimləmə riskini üzə çıxardı.",
+        "challenge": {
+          "title": "Problem",
+          "items": ["Ayda orta 12 saat dayanma", "MTTR: 4.5 saat", "İş vaxtı: 96.2%", "Təxmini risk: saatda $250K"],
+          "summary": "Gəlir qorunmasına və SLA etibarına təsir edən əməliyyat dəyişkənliyi"
+        },
+        "intervention": {
+          "title": "Müdaxiləmiz",
+          "items": ["24/7 missiya-kritik verilənlər bazası əməliyyatları", "Yüksək əlçatanlıq və keçid arxitekturası", "Fəlakətdən bərpa orkestrasiyası", "Strukturlaşdırılmış insident cavab intizamı", "Əməliyyatlara daxil edilmiş idarəetmə"]
+        },
+        "results": {
+          "title": "Ölçülə Bilən Təsir",
+          "items": ["Dayanma 85% azaldıldı", "MTTR 4.5 saatdan 25 dəqiqəyə yaxşılaşdı", "İş vaxtı 99.98%-ə yüksəldi", "İllik $2.5M maliyyə riski azaldıldı"],
+          "conclusion": "Əməliyyat sabitliyi texniki funksiyadan idarə olunan maliyyə risk modelinə çevrildi"
+        }
+      }
+    },
+    "aiPlatforms": {
+      "title": "AI-yə Hazır Məlumat Platformaları",
+      "tagline": "AI yalnız idarə olunan, miqyaslanan məlumat əsasları üzərində uğur qazanır.",
+      "deliver": {
+        "title": "Nə Təqdim Edirik",
+        "items": ["Vahid data lakehouse arxitekturası", "Hibrid bulud və yerli yerləşdirmə", "Strukturlaşdırılmış və struktursuz məlumat inteqrasiyası", "Analitika və maşın öyrənməsi üçün miqyaslanan mühitlər", "İdarəetmə tələbləri ilə uyğunlaşdırılmış arxitektura"]
+      },
+      "whyMatters": {
+        "title": "Niyə Vacibdir",
+        "items": ["AI yerləşdirməsini sürətləndirir", "Arxitektura mürəkkəbliyini azaldır", "Təcrid olunmuş məlumat mühitlərini aradan qaldırır", "Analitika performansını yaxşılaşdırır", "Məlumat strategiyasını inkişaf məqsədləri ilə uyğunlaşdırır"]
+      },
+      "impact": {
+        "title": "Biznes Təsiri",
+        "items": ["Daha sürətli qərar qəbulu", "Aşağı infrastruktur dublikat xərcləri", "Miqyaslanan AI transformasiyası", "Məlumat aktivləri üzərində daha güclü icraçı nəzarəti"]
+      },
+      "caseStudy": {
+        "label": "Keys Stadi",
+        "context": "Parçalanmış məlumat mənzərəsi olan milli müəssisə: 12+ məlumat mənbəyi. Ayrı BI, DWH və analitika mühitləri.",
+        "challenge": {
+          "title": "Problem",
+          "items": ["Yeni analitika hallarını başlamaq üçün 3-6 ay", "Departamentlər arasında uyğunsuz KPI-lər", "Yüksək infrastruktur dublikat xərcləri", "Vahid idarəetmə modeli yoxdur"],
+          "summary": "AI təşəbbüsləri pilot mərhələsindən kənara çıxa bilmir"
+        },
+        "intervention": {
+          "title": "Müdaxiləmiz",
+          "items": ["Vahid lakehouse arxitekturası tətbiqi", "Hibrid bulud + yerli inteqrasiya", "Strukturlaşdırılmış məlumat qəbulu (ETL/ELT avtomatlaşdırması)", "Dizayn əsasında idarəetmə və lineage", "Analitika və maşın öyrənməsi üçün miqyaslanan mühit"]
+        },
+        "results": {
+          "title": "Ölçülə Bilən Təsir",
+          "items": ["Analitika çatdırma müddəti 65% azaldıldı", "İnfrastruktur dublikatı 40% azaldıldı", "AI halları 3 ayda pilotdan istehsala keçdi", "Məlumat emalı performansı 55% yaxşılaşdı"],
+          "conclusion": "Məlumat platforması parçalanmış infrastrukturdan biznes inkişafı ilə uyğunlaşdırılmış miqyaslanan AI əsasına çevrildi"
+        }
+      }
+    },
+    "dataEngineering": {
+      "title": "Avtomatlaşdırılmış Məlumat Mühəndisliyi və İdarəetmə",
+      "tagline": "Etibarlı məlumat hər etibarlı qərarın əsasıdır.",
+      "deliver": {
+        "title": "Nə Təqdim Edirik",
+        "items": ["Strukturlaşdırılmış və versiyalaşdırılmış ETL/ELT arxitekturası", "Avtomatlaşdırılmış boru xətti orkestrasiyası", "Deterministik məlumat transformasiyaları", "Sxem inkişaf nəzarəti", "Məlumat doğrulaması və monitorinq", "Uçdan-uca məlumat lineage izləməsi"]
+      },
+      "whyMatters": {
+        "title": "Niyə Vacibdir",
+        "items": ["Manual inteqrasiya xətalarını aradan qaldırır", "BI və AI nəticələrinə etibarı artırır", "Uyğunluq və audit riskini azaldır", "Xaos olmadan miqyaslanan məlumat artımını mümkün edir"]
+      },
+      "impact": {
+        "title": "Biznes Təsiri",
+        "items": ["Departamentlər arasında ardıcıl məlumat", "Daha sürətli analitika yerləşdirməsi", "Azaldılmış əməliyyat riski", "Daha güclü tənzimləmə etibarı"]
+      },
+      "caseStudy": {
+        "label": "Keys Stadi",
+        "context": "Parçalanmış məlumat mənzərəsi olan milli müəssisə: 12+ məlumat mənbəyi.",
+        "challenge": {
+          "title": "Problem",
+          "items": ["Analitika vaxtının 40%-i məlumat uzlaşmasına sərf olunur", "Biznes vahidləri arasında uyğunsuz KPI-lər", "Tez-tez manual boru xətti uğursuzluqları", "Məhdud audit izlənilməsi", "Zəif məlumat lineage-dən tənzimləmə riski"],
+          "summary": "Məlumat mühiti strukturdan, nəzarətdən və idarəetmədən məhrum idi"
+        },
+        "intervention": {
+          "title": "Müdaxiləmiz",
+          "items": ["Strukturlaşdırılmış və versiyalaşdırılmış ETL/ELT arxitekturası (dbt əsaslı)", "Avtomatlaşdırılmış orkestrasiya (Airflow boru xətləri)", "Deterministik məlumat modelləmə və test çərçivəsi", "Uçdan-uca məlumat doğrulaması və monitorinq", "Daxil edilmiş idarəetmə və lineage izləmə"]
+        },
+        "results": {
+          "title": "Ölçülə Bilən Təsir",
+          "items": ["Manual məlumat uzlaşması 60% azaldıldı", "Analitika yerləşdirmə dövrü 45% qısaldıldı", "Məlumat uyğunsuzluqları 70% azaldıldı", "Audit izlənilməsi 100% lineage əhatəsinə çatdı", "Əməliyyat riski əhəmiyyətli dərəcədə azaldıldı"],
+          "conclusion": "Məlumat parçalanmış əməliyyat yükündən idarə olunan, etibarlı korporativ aktivə çevrildi."
+        }
+      }
+    },
+    "modernization": {
+      "title": "Xərc-Səmərəli Modernizasiya",
+      "tagline": "Müasir infrastruktur xərci, riski və satıcı asılılığını azaldır.",
+      "deliver": {
+        "title": "Nə Təqdim Edirik",
+        "items": ["Açıq mənbəli və xərc-səmərəli məlumat platformalarına miqrasiya", "Sıfır dayanma yeniləmə strategiyaları", "İnfrastruktur performans optimallaşdırması", "Miqyaslanma üçün arxitektura yenidən dizaynı", "Satıcı asılılığının azaldılması"]
+      },
+      "whyMatters": {
+        "title": "Niyə Vacibdir",
+        "items": ["Lisenziya və infrastruktur xərclərini azaldır", "Xərc şəffaflığını və proqnozlaşdırılmasını yaxşılaşdırır", "Eksponensial xərc artımı olmadan miqyaslanan inkişafı mümkün edir", "İT strategiyasını maliyyə planlaması ilə uyğunlaşdırır"]
+      },
+      "impact": {
+        "title": "Biznes Təsiri",
+        "items": ["Daha aşağı uzunmüddətli əməliyyat xərcləri", "Məlumat infrastrukturuna təkmilləşdirilmiş ROI", "Davamlı miqyaslanma", "Artırılmış maliyyə nəzarəti"]
+      },
+      "caseStudy": {
+        "label": "Keys Stadi",
+        "context": "Köhnə mülkiyyət verilənlər bazası platformalarında işləyən böyük müəssisə, artan lisenziya xərcləri və satıcı asılılığı ilə üzləşirdi.",
+        "challenge": {
+          "title": "Problem",
+          "items": ["İllik lisenziya və dəstək xərcləri $1.2M-i keçir", "İnfrastruktur az istifadəsi və performans darboğazları", "Strateji çevikliyi məhdudlaşdıran satıcı asılılığı", "Əməliyyat riskinə səbəb olan yeniləmə dövrləri", "Biznes inkişafını aşan xərc artımı"],
+          "summary": "Texnologiya xərcləri proqnozlaşdırıla bilməzlik və strateji uyğunsuzluq nümayiş etdirirdi."
+        },
+        "intervention": {
+          "title": "Müdaxiləmiz",
+          "items": ["Açıq və xərc-səmərəli məlumat platformalarına miqrasiya", "Sıfır dayanma yeniləmə strategiyası", "İnfrastruktur performans optimallaşdırması", "Miqyaslanan inkişaf üçün arxitektura yenidən dizaynı", "Satıcı asılılığının azaldılması strategiyası"]
+        },
+        "results": {
+          "title": "Ölçülə Bilən Təsir",
+          "items": ["Lisenziya xərcləri 60% azaldıldı", "İnfrastruktur xərcləri 35% azaldıldı", "Performans 40% yaxşılaşdı", "Satıcı asılılığı əhəmiyyətli dərəcədə azaldıldı"],
+          "conclusion": "İT infrastrukturu xərc mərkəzindən proqnozlaşdırıla bilən, miqyaslanan maliyyə aktivinə çevrildi"
+        }
+      }
+    }
+  },
+  "dellCaseStudy": {
+    "title": "Korporativ Keys Stadi",
+    "subtitle": "Dell Technologies — korporativ lakehouse tətbiqi",
+    "challenge": "Davam edən əməliyyatları pozmadan məhsul vizyonu, miqyaslanma tələbləri və xərc səmərəliliyi ilə uyğunlaşdırılmış müasir məlumat platformasının seçilməsi və tətbiqi.",
+    "whyDataLead": {
+      "title": "Niyə DataLead",
+      "items": ["Korporativ məlumat strategiyası ilə arxitektura uyğunluğu", "Missiya-kritik infrastruktura inteqrasiya", "Əməliyyat intizamı və sürətli icra qabiliyyəti"]
+    },
+    "impact": {
+      "title": "Ölçülə Bilən Təsir",
+      "items": ["Optimallaşdırılmış arxitektura ilə illik milyonlarla qənaət", "3× daha sürətli tətbiq və icra dövrü", "Korporativ məlumat əməliyyatlarına sürətləndirilmiş inteqrasiya", "Təkmilləşdirilmiş miqyaslanma və platforma performansı", "Real dünya məhdudiyyətləri altında korporativ səviyyəli icra"]
+    }
+  },
+  "comparison": {
+    "title": "Niyə Daxili İT və ya Ümumi İnteqratorlar Deyil?",
+    "colInternal": "Daxili İT və ya Ümumi İnteqratorlar",
+    "colDataLead": "DataLead Consulting",
+    "rows": [
+      { "internalTitle": "Geniş fokus, məhdud ixtisaslaşma", "internalDesc": "Bir çox İT sahəsini idarə edir — verilənlər bazaları əsas intizam deyil.", "dataLeadTitle": "Dərin verilənlər bazası ixtisaslaşması", "dataLeadDesc": "Missiya-kritik məlumat infrastrukturu əsas ekspertizamızdır." },
+      { "internalTitle": "Reaktiv əməliyyatlar", "internalDesc": "İnsident cavabı çox vaxt pozuntudan sonra başlayır.", "dataLeadTitle": "Proaktiv dayanıqlılıq modeli", "dataLeadDesc": "Uğursuzluğun qarşısının alınması və sürətli təcrid əməliyyatlara daxil edilib." },
+      { "internalTitle": "Satıcı yönümlü qərarlar", "internalDesc": "Arxitektura seçimləri mövcud müqavilələrdən təsirlənir.", "dataLeadTitle": "Satıcı-neytral arxitektura", "dataLeadDesc": "Həllər biznes uyğunluğu üçün seçilir — məhsul üstünlüyü üçün deyil." },
+      { "internalTitle": "Böyük miqyaslı insidentlərə məhdud məruz qalma", "internalDesc": "Daha az real korporativ dayanıqlılıq ssenariləri.", "dataLeadTitle": "Geniş korporativ miqyaslı təcrübə", "dataLeadDesc": "Böyük, tənzimlənən mühitlərdə minlərlə insident idarə edilib." },
+      { "internalTitle": "Sonradan əlavə edilən idarəetmə", "internalDesc": "Uyğunluq və hesabat üstdən əlavə edilir.", "dataLeadTitle": "Dizayn əsasında daxil edilmiş idarəetmə", "dataLeadDesc": "Uyğunluq, görünürlük və nəzarət gündəlik əməliyyatlara inteqrasiya edilib." }
+    ]
+  },
+  "whyDataLead": {
+    "title": "Niyə DataLead Consulting",
+    "subtitle": "Korporativ dayanıqlılıq təcrübə, miqyas və intizamlı icra tələb edir.",
+    "pillars": {
+      "team": { "title": "Yüksək Səviyyəli Mühəndislik Komandası", "items": ["Sertifikatlı verilənlər bazası və infrastruktur mütəxəssisləri", "Korporativ miqyaslı platformalarda dərin praktik təcrübə"] },
+      "architecture": { "title": "Biznesə Uyğunlaşdırılmış Arxitektura", "desc": "Performans, uyğunluq və xərc səmərəliliyi üçün optimallaşdırılmış satıcı-neytral qərarlar." },
+      "scale": { "title": "Sübut Edilmiş Əməliyyat Miqyası", "items": ["Sürətli insident cavab mədəniyyəti", "Korporativ səviyyəli iş vaxtı performansı", "İdarə olunan böyük miqyaslı verilənlər bazası və petabayt səviyyəli mühitlər"] },
+      "expertise": { "title": "25 İl Korporativ Ekspertiza", "desc": "Missiya-kritik və tənzimlənən mühitlərdə uzunmüddətli təcrübə." }
+    }
+  },
+  "cta": {
+    "title": "Əməkdaşlığı Müzakirə Edək",
+    "subtitle": "Korporativ məlumat dayanıqlığı qurmağa hazırsınız? Gəlirinizi necə qoruya və inkişafı mümkün edə biləcəyimizi araşdıraq.",
+    "button": "Əlaqə"
+  },
+  "preview": {
+    "title": "Korporativ Məlumat Dayanıqlığı",
+    "subtitle": "Gəliri qorumaq, davamlılığı təmin etmək və AI-yə hazır inkişafı mümkün etmək.",
+    "explore": "Biznes Dəyərini Kəşf Edin",
+    "domains": {
+      "missionCritical": { "title": "Missiya-Kritik DB Əməliyyatları", "desc": "Gəliri qoruyur və əməliyyat davamlılığını təmin edir" },
+      "aiPlatforms": { "title": "AI-yə Hazır Məlumat Platformaları", "desc": "Etibarlı analitika və miqyaslanan AI mənimsənilməsini mümkün edir" },
+      "dataEngineering": { "title": "Məlumat Mühəndisliyi və İdarəetmə", "desc": "İnteqrasiya riskini azaldır və məlumat etibarını gücləndirir" },
+      "modernization": { "title": "Xərc-Səmərəli Modernizasiya", "desc": "Xərc proqnozlaşdırılmasını və uzunmüddətli miqyaslanmanı yaxşılaşdırır" }
+    }
+  }
+}

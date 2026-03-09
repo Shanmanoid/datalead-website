@@ -1,0 +1,40 @@
+{
+  "hero": {
+    "badge": "18+ Years of Excellence",
+    "title": "Your Data.",
+    "titleHighlight": "Our Expertise.",
+    "subtitle": "Enterprise database consulting, modern data platform deployment, and advanced analytics — empowering organizations across Azerbaijan and beyond.",
+    "cta1": "Explore Services",
+    "cta2": "Contact Us"
+  },
+  "stats": {
+    "years": "Years of Experience",
+    "clients": "Enterprise Clients",
+    "projects": "Completed Projects",
+    "support": "Support Availability"
+  },
+  "servicesSection": {
+    "title": "What We Do",
+    "subtitle": "From traditional database management to modern data lakehouse solutions — we cover the full spectrum.",
+    "viewAll": "View All Services"
+  },
+  "about": {
+    "badge": "About DataLead",
+    "title": "Trusted Data Experts Since 2006",
+    "text": "DataLead Consulting is a leading data management firm specializing in enterprise database administration, data platform deployment, and advanced analytics. With certifications across Oracle, MS-SQL, PostgreSQL and open-source technologies, we serve government agencies, banks, and enterprises."
+  },
+  "techCards": {
+    "oracle": { "desc": "Enterprise Database Management & RAC" },
+    "postgresql": { "desc": "Open-Source Database Platform" },
+    "iomete": { "desc": "Modern Data Lakehouse Solution" },
+    "spark": { "desc": "Big Data Processing Engine" }
+  },
+  "clients": {
+    "title": "Our Clients",
+    "subtitle": "Trusted by leading organizations across Azerbaijan."
+  },
+  "partners": {
+    "title": "Technology Partners",
+    "subtitle": "Strategic partnerships with industry-leading technology providers."
+  }
+}

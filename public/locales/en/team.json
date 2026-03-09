@@ -1,0 +1,48 @@
+{
+  "hero": {
+    "title": "Our Team",
+    "subtitle": "Meet the experts behind DataLead's success."
+  },
+  "section": {
+    "title": "Data Experts",
+    "subtitle": "Certified professionals with deep experience across enterprise data technologies."
+  },
+  "members": {
+    "m1": {
+      "name": "CEO & Founder",
+      "role": "Chief Executive Officer",
+      "bio": "18+ years of experience in enterprise data management. Founded DataLead with a mission to bring world-class database consulting to Azerbaijan.",
+      "expertise": ["Strategy", "Enterprise", "Oracle", "Leadership"]
+    },
+    "m2": {
+      "name": "CTO",
+      "role": "Chief Technology Officer",
+      "bio": "Expert in modern data platforms and cloud architecture. Leads the technical vision and IOMETE partnership integration.",
+      "expertise": ["Cloud", "IOMETE", "Architecture", "Spark"]
+    },
+    "m3": {
+      "name": "Lead DBA",
+      "role": "Senior Database Administrator",
+      "bio": "15+ years managing mission-critical databases for government and banking. Specialized in Oracle RAC and PostgreSQL HA clusters.",
+      "expertise": ["Oracle", "PostgreSQL", "HA", "Performance"]
+    },
+    "m4": {
+      "name": "Data Engineer",
+      "role": "Senior Data Engineer",
+      "bio": "Designs and builds scalable ETL/ELT pipelines and data lake architectures. Expert in Apache Spark and dbt.",
+      "expertise": ["ETL", "Spark", "dbt", "Python"]
+    },
+    "m5": {
+      "name": "Solutions Architect",
+      "role": "Enterprise Solutions Architect",
+      "bio": "Bridges business requirements with technical solutions. Specializes in DWH design and data platform migrations.",
+      "expertise": ["DWH", "Migration", "MS-SQL", "Denodo"]
+    },
+    "m6": {
+      "name": "Security Specialist",
+      "role": "Database Security Expert",
+      "bio": "Ensures data protection and compliance across all client environments. Expert in DataSunrise and encryption technologies.",
+      "expertise": ["Security", "Compliance", "Encryption", "Audit"]
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "About DataLead",
+    "subtitle": "18+ years of enterprise data management excellence."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text1": "DataLead Consulting was founded with a singular vision: to help organizations transform their data into strategic investments. Over 18 years, we've grown from a specialized database consultancy into a comprehensive data solutions provider.",
+    "text2": "Today we serve government agencies, financial institutions, and enterprises across Azerbaijan, delivering everything from 24/7 database support to cutting-edge data lakehouse deployments with IOMETE.",
+    "quote": "Transform your data into investments — that's not just our tagline, it's our promise."
+  },
+  "values": {
+    "title": "Our Values",
+    "subtitle": "The principles that guide everything we do.",
+    "expertise": { "title": "Deep Expertise", "desc": "Certified professionals with hands-on experience across Oracle, PostgreSQL, MS-SQL, and modern data platforms." },
+    "innovation": { "title": "Innovation", "desc": "Constantly adopting cutting-edge technologies like IOMETE, Apache Spark, and cloud-native solutions." },
+    "quality": { "title": "Quality First", "desc": "100% commitment to delivering high-quality, production-ready solutions that meet enterprise standards." },
+    "partnership": { "title": "True Partnership", "desc": "We work alongside our clients as trusted advisors, not just service providers." }
+  },
+  "timeline": {
+    "title": "Our Journey",
+    "subtitle": "Key milestones in our growth story.",
+    "y1": { "year": "2006", "title": "Company Founded", "desc": "DataLead Consulting established in Baku, starting with Oracle database administration." },
+    "y2": { "year": "2012", "title": "Government Partnerships", "desc": "Began serving Azerbaijan's government agencies including Tax Service and Customs Committee." },
+    "y3": { "year": "2018", "title": "Open Source Expansion", "desc": "Expanded into PostgreSQL, NoSQL, and big data technologies with Cloudera and Apache." },
+    "y4": { "year": "2023", "title": "IOMETE Partnership", "desc": "Became official IOMETE partner, offering modern data lakehouse solutions." }
+  }
+}

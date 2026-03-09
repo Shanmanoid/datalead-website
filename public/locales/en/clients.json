@@ -1,0 +1,15 @@
+{
+  "hero": {
+    "title": "Our Clients",
+    "subtitle": "Trusted by leading organizations across Azerbaijan."
+  },
+  "section": {
+    "title": "Who We Work With",
+    "subtitle": "From government agencies to major financial institutions and enterprises."
+  },
+  "sectors": {
+    "government": "Government",
+    "banking": "Banking & Finance",
+    "enterprise": "Enterprise"
+  }
+}

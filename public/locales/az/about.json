@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "title": "DataLead haqqında",
+    "subtitle": "18+ il korporativ verilənlər idarəetməsində mükəmməllik."
+  },
+  "mission": {
+    "title": "Missiyamız",
+    "text1": "DataLead Consulting vahid bir vizyonla yaradılıb: təşkilatlara verilənlərini strateji investisiyalara çevirməyə kömək etmək. 18 il ərzində ixtisaslaşdırılmış verilənlər bazası konsaltinqindən hərtərəfli data həlləri təminatçısına çevrildik.",
+    "text2": "Bu gün biz Azərbaycan üzrə dövlət qurumlarına, maliyyə institutlarına və müəssisələrə xidmət göstəririk — 7/24 DB dəstəyindən tutmuş IOMETE ilə müasir Data Lakehouse quraşdırılmasına qədər.",
+    "quote": "Verilənlərinizi investisiyalara çevirin — bu sadəcə şüarımız deyil, vədimizdir."
+  },
+  "values": {
+    "title": "Dəyərlərimiz",
+    "subtitle": "Bütün fəaliyyətimizə rəhbərlik edən prinsiplər.",
+    "expertise": { "title": "Dərin ekspertiza", "desc": "Oracle, PostgreSQL, MS-SQL və müasir data platformaları üzrə praktik təcrübəyə malik sertifikatlı peşəkarlar." },
+    "innovation": { "title": "İnnovasiya", "desc": "IOMETE, Apache Spark və bulud-nativ həllər kimi qabaqcıl texnologiyaların daim tətbiqi." },
+    "quality": { "title": "Keyfiyyət hər şeydən əvvəl", "desc": "Korporativ standartlara cavab verən yüksək keyfiyyətli, istehsala hazır həllərin təqdim edilməsinə 100% sadiqlik." },
+    "partnership": { "title": "Əsl tərəfdaşlıq", "desc": "Biz müştərilərimizlə sadəcə xidmət təminatçıları deyil, etibarlı məsləhətçilər kimi işləyirik." }
+  },
+  "timeline": {
+    "title": "Bizim yolumuz",
+    "subtitle": "İnkişaf hekayəmizdəki əsas mərhələlər.",
+    "y1": { "year": "2006", "title": "Şirkətin yaradılması", "desc": "DataLead Consulting Bakıda yaradıldı, Oracle verilənlər bazası administrasiyası ilə başladı." },
+    "y2": { "year": "2012", "title": "Dövlət tərəfdaşlıqları", "desc": "Azərbaycanın dövlət qurumlarına, o cümlədən Vergi Xidməti və Gömrük Komitəsinə xidmət göstərməyə başladı." },
+    "y3": { "year": "2018", "title": "Açıq mənbə genişlənməsi", "desc": "PostgreSQL, NoSQL və böyük data texnologiyalarına (Cloudera, Apache) genişlənmə." },
+    "y4": { "year": "2023", "title": "IOMETE tərəfdaşlığı", "desc": "IOMETE-nin rəsmi tərəfdaşı olaraq müasir Data Lakehouse həlləri təklif etməyə başladı." }
+  }
+}

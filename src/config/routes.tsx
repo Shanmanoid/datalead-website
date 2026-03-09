@@ -1,0 +1,28 @@
+import { lazy } from 'react'
+
+export const HomePage = lazy(() => import('@/pages/HomePage'))
+export const AboutPage = lazy(() => import('@/pages/AboutPage'))
+export const ServicesPage = lazy(() => import('@/pages/ServicesPage'))
+export const ContactPage = lazy(() => import('@/pages/ContactPage'))
+export const PricesPage = lazy(() => import('@/pages/PricesPage'))
+export const TeamPage = lazy(() => import('@/pages/TeamPage'))
+export const ClientsPage = lazy(() => import('@/pages/ClientsPage'))
+export const PartnersPage = lazy(() => import('@/pages/PartnersPage'))
+export const PortfolioPage = lazy(() => import('@/pages/PortfolioPage'))
+export const DocsPage = lazy(() => import('@/pages/DocsPage'))
+export const BusinessValuePage = lazy(() => import('@/pages/BusinessValuePage'))
+export const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'))
+
+// Service sub-pages
+export const DbSupportPage = lazy(() => import('@/pages/services/DbSupportPage'))
+export const PostgresqlPage = lazy(() => import('@/pages/services/PostgresqlPage'))
+export const DwhDataLakesPage = lazy(() => import('@/pages/services/DwhDataLakesPage'))
+export const NoSqlPage = lazy(() => import('@/pages/services/NoSqlPage'))
+export const DbMigrationPage = lazy(() => import('@/pages/services/DbMigrationPage'))
+export const DbaTrainingPage = lazy(() => import('@/pages/services/DbaTrainingPage'))
+export const DbSecurityPage = lazy(() => import('@/pages/services/DbSecurityPage'))
+export const AiMlPage = lazy(() => import('@/pages/services/AiMlPage'))
+export const DataPlatformPage = lazy(() => import('@/pages/services/DataPlatformPage'))
+export const EtlPipelinePage = lazy(() => import('@/pages/services/EtlPipelinePage'))
+export const BiAnalyticsPage = lazy(() => import('@/pages/services/BiAnalyticsPage'))
+export const DbGovernancePage = lazy(() => import('@/pages/services/DbGovernancePage'))
