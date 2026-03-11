@@ -1,15 +1,23 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { ScrollReveal } from '@/components/ui/ScrollReveal'
-import { SectionHeading } from '@/components/ui/SectionHeading'
+import { motion, AnimatePresence } from 'motion/react'
 import { ServiceCard } from '@/components/sections/ServiceCard'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { services } from '@/utils/constants'
+import { cn } from '@/utils/cn'
+
+const categories = ['all', 'database', 'platform'] as const
 
 export default function ServicesPage() {
   const { t } = useTranslation()
+  const [activeCategory, setActiveCategory] = useState<string>('all')
 
-  const dbServices = services.filter(s => s.category === 'database')
-  const platformServices = services.filter(s => s.category === 'platform')
+  const filtered = activeCategory === 'all'
+    ? services
+    : services.filter(s => s.category === activeCategory)
+
+  const getCategoryCount = (cat: string) =>
+    cat === 'all' ? services.length : services.filter(s => s.category === cat).length
 
   return (
     <>
@@ -20,36 +28,50 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      {/* Database & Infrastructure */}
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            title={t('servicesPage.database.title')}
-            subtitle={t('servicesPage.database.subtitle')}
-          />
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {dbServices.map((service, i) => (
-              <ScrollReveal key={service.id} delay={i * 0.08} className="h-full">
-                <ServiceCard service={service} index={i} />
-              </ScrollReveal>
+          {/* Filters */}
+          <div className="flex flex-wrap justify-center gap-3">
+            {categories.map(cat => (
+              <motion.button
+                key={cat}
+                whileTap={{ scale: 0.95 }}
+                onClick={() => setActiveCategory(cat)}
+                className={cn(
+                  'px-6 py-2.5 rounded-xl text-base font-semibold transition-all cursor-pointer',
+                  activeCategory === cat
+                    ? 'bg-brand text-white shadow-lg shadow-brand/25'
+                    : 'bg-surface-alt text-text-secondary hover:bg-border hover:text-text-primary'
+                )}
+              >
+                {t(`servicesPage.filters.${cat}`)}
+                <span className={cn(
+                  'ml-2 text-sm',
+                  activeCategory === cat ? 'text-white/70' : 'text-text-muted'
+                )}>
+                  ({getCategoryCount(cat)})
+                </span>
+              </motion.button>
             ))}
           </div>
-        </div>
-      </section>
 
-      {/* Data Platform (IOMETE) */}
-      <section className="py-20 bg-gradient-to-b from-surface to-surface-alt">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <SectionHeading
-            title={t('servicesPage.platform.title')}
-            subtitle={t('servicesPage.platform.subtitle')}
-          />
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {platformServices.map((service, i) => (
-              <ScrollReveal key={service.id} delay={i * 0.08} className="h-full">
-                <ServiceCard service={service} index={i} />
-              </ScrollReveal>
-            ))}
+          {/* Services Grid */}
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <AnimatePresence mode="popLayout">
+              {filtered.map((service, i) => (
+                <motion.div
+                  key={service.id}
+                  layout
+                  initial={{ opacity: 0, scale: 0.9 }}
+                  animate={{ opacity: 1, scale: 1 }}
+                  exit={{ opacity: 0, scale: 0.9 }}
+                  transition={{ duration: 0.3 }}
+                  className="h-full"
+                >
+                  <ServiceCard service={service} index={i} />
+                </motion.div>
+              ))}
+            </AnimatePresence>
           </div>
         </div>
       </section>

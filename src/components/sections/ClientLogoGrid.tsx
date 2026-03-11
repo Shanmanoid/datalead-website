@@ -25,7 +25,7 @@ export function ClientLogoGrid() {
   return (
     <section className="py-20 bg-gradient-to-b from-surface to-surface-alt">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <SectionHeading title={t('clients.title')} subtitle={t('clients.subtitle')} />
+        <SectionHeading title={t('customers.title')} subtitle={t('customers.subtitle')} />
         <div className="mt-12 grid grid-cols-2 md:grid-cols-4 gap-6">
           {clients.map((client, i) => (
             <ScrollReveal key={client.name} delay={i * 0.05} className="h-full">

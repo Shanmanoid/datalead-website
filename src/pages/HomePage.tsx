@@ -3,7 +3,6 @@ import { HeroSection } from '@/components/sections/HeroSection'
 import { StatsBar } from '@/components/sections/StatsBar'
 import { ServiceCard } from '@/components/sections/ServiceCard'
 import { ClientLogoGrid } from '@/components/sections/ClientLogoGrid'
-import { PartnerLogoGrid } from '@/components/sections/PartnerLogoGrid'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { BusinessValuePreview } from '@/components/sections/BusinessValuePreview'
 import { SectionHeading } from '@/components/ui/SectionHeading'
@@ -98,7 +97,6 @@ export default function HomePage() {
       </section>
 
       <ClientLogoGrid />
-      <PartnerLogoGrid />
       <CTABanner />
     </>
   )

@@ -1,40 +1,36 @@
 {
   "hero": {
-    "badge": "18+ Years of Excellence",
-    "title": "Your Data.",
-    "titleHighlight": "Our Expertise.",
-    "subtitle": "Enterprise database consulting, modern data platform deployment, and advanced analytics — empowering organizations across Azerbaijan and beyond.",
+    "badge": "25+ Years of Enterprise Excellence",
+    "title": "Turn Your Data",
+    "titleHighlight": "Into Investment.",
+    "subtitle": "Enterprise data resilience, AI-ready platforms, and mission-critical database operations — protecting revenue and enabling growth for organizations across Azerbaijan and beyond.",
     "cta1": "Explore Services",
     "cta2": "Contact Us"
   },
   "stats": {
     "years": "Years of Experience",
-    "clients": "Enterprise Clients",
+    "customers": "Enterprise Customers",
     "projects": "Completed Projects",
     "support": "Support Availability"
   },
   "servicesSection": {
     "title": "What We Do",
-    "subtitle": "From traditional database management to modern data lakehouse solutions — we cover the full spectrum.",
+    "subtitle": "From mission-critical database operations to AI-ready data lakehouse platforms — we deliver enterprise data resilience across the full spectrum.",
     "viewAll": "View All Services"
   },
   "about": {
     "badge": "About DataLead",
-    "title": "Trusted Data Experts Since 2006",
-    "text": "DataLead Consulting is a leading data management firm specializing in enterprise database administration, data platform deployment, and advanced analytics. With certifications across Oracle, MS-SQL, PostgreSQL and open-source technologies, we serve government agencies, banks, and enterprises."
+    "title": "Enterprise Data Resilience & AI-Ready Platforms",
+    "text": "DataLead Consulting is an enterprise data resilience partner for mission-critical environments. We design and operate secure, high-availability, and rapid-response data platforms. With 25+ years of expertise across Oracle, PostgreSQL, IOMETE, and open-source technologies, we serve government agencies, banks, telecom, and large-scale digital enterprises. Our team manages 1,700+ databases, 8 PB+ of enterprise data, with 99.98% uptime and 4-minute critical incident response."
   },
   "techCards": {
     "oracle": { "desc": "Enterprise Database Management & RAC" },
     "postgresql": { "desc": "Open-Source Database Platform" },
-    "iomete": { "desc": "Modern Data Lakehouse Solution" },
-    "spark": { "desc": "Big Data Processing Engine" }
+    "iomete": { "desc": "AI-Ready Data Lakehouse Platform" },
+    "spark": { "desc": "Big Data & ML Processing Engine" }
   },
-  "clients": {
-    "title": "Our Clients",
+  "customers": {
+    "title": "Our Customers",
     "subtitle": "Trusted by leading organizations across Azerbaijan."
-  },
-  "partners": {
-    "title": "Technology Partners",
-    "subtitle": "Strategic partnerships with industry-leading technology providers."
   }
 }

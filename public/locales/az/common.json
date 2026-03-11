@@ -4,16 +4,13 @@
     "about": "Haqqımızda",
     "services": "Xidmətlər",
     "portfolio": "Portfolio",
-    "prices": "Qiymətlər",
     "team": "Komanda",
-    "clients": "Müştərilər",
-    "partners": "Partnyorlar",
+    "customers": "Müştərilərimiz",
     "contact": "Əlaqə",
-    "docs": "Sənədlər",
-    "businessValue": "Biznes Dəyəri"
+    "docs": "Sənədlər"
   },
   "footer": {
-    "description": "DataLead Consulting — 18+ il korporativ verilənlər idarəetməsi təcrübəsi. Biz təşkilatlara verilənlərini strateji aktivlərə çevirməyə kömək edirik.",
+    "description": "DataLead Consulting — Korporativ Məlumat Dayanıqlığı və AI-yə Hazır Platformalar. 25+ il missiya-kritik məlumat əməliyyatları təcrübəsi. Verilənlərinizi dərhal investisiyaya çevirin.",
     "quickLinks": "Sürətli keçidlər",
     "services": "Xidmətlər",
     "contactUs": "Əlaqə",
@@ -33,13 +30,13 @@
   "services": {
     "dbSupport": { "title": "7/24 DB Dəstəyi", "description": "Bütün verilənlər bazalarının gecə-gündüz monitorinqi və idarə edilməsi." },
     "postgresql": { "title": "PostgreSQL Xidmətləri", "description": "PostgreSQL-in tam quraşdırılması, miqrasiyası, optimallaşdırılması və dəstəyi." },
-    "dwh": { "title": "Data Anbarları və Data Gölləri", "description": "Korporativ data anbarlarının və data göllərinin layihələndirilməsi və qurulması." },
+    "dwh": { "title": "DWH və Data Lakehouse", "description": "Korporativ data anbarları, data gölləri və müasir Data Lakehouse arxitekturalarının layihələndirilməsi və qurulması." },
     "nosql": { "title": "NoSQL Verilənlər Bazaları", "description": "MongoDB, Cassandra, HBase və digərlərinin idarə edilməsi və optimallaşdırılması." },
     "migration": { "title": "DB Miqrasiyası", "description": "Platformalar arasında təhlükəsiz və problemsiz miqrasiya." },
     "training": { "title": "DBA Təlimi", "description": "Verilənlər bazası administratorları üçün peşəkar təlim proqramları." },
     "security": { "title": "DB Təhlükəsizliyi", "description": "Verilənlər bazası təhlükəsizliyinin hərtərəfli auditi və tətbiqi." },
-    "aiml": { "title": "Süni İntellekt və ML", "description": "ML modellərinin öyrədilməsi və yerləşdirilməsi üçün miqyaslana bilən mühitlər." },
-    "platform": { "title": "Data Platforması", "description": "Tam idarə olunan IOMETE data infrastrukturunun quraşdırılması və konfiqurasiyası." },
+    "aiml": { "title": "Süni İntellekt və ML", "description": "AI-yə hazır data əsasları, ML boru xətti inteqrasiyası və lakehouse platformalarında davamlı model təlimi." },
+    "platform": { "title": "Data Platforması (IOMETE)", "description": "Apache Spark və Apache Iceberg ilə IOMETE əsaslı AI-yə hazır Data Lakehouse platformalarının quraşdırılması." },
     "etl": { "title": "ETL/ELT Boru Kəmərləri", "description": "Spark, dbt və IOMETE ilə istehsala hazır data boru kəmərləri." },
     "bi": { "title": "BI və Analitika", "description": "Power BI, Tableau və Looker ilə real vaxt panelləri." },
     "governance": { "title": "DB İdarəetməsi", "description": "Korporativ verilənlər bazası idarəetməsi, uyğunluq və dəyişiklik idarəetməsi." }
@@ -55,7 +52,8 @@
   "servicesPage": {
     "hero": { "title": "Xidmətlərimiz", "subtitle": "Hər ölçüdə müəssisələr üçün hərtərəfli verilənlər idarəetmə və platforma həlləri." },
     "database": { "title": "Verilənlər Bazası və İnfrastruktur", "subtitle": "Korporativ verilənlər bazalarının ekspert idarəetməsi, optimallaşdırılması və təhlükəsizliyi." },
-    "platform": { "title": "Data Platforması (IOMETE)", "subtitle": "IOMETE ilə müasir bulud-nativ Data Lakehouse həlləri." }
+    "platform": { "title": "Data Platforması (IOMETE)", "subtitle": "IOMETE ilə müasir bulud-nativ Data Lakehouse həlləri." },
+    "filters": { "all": "Bütün xidmətlər", "database": "DB və İnfrastruktur", "platform": "Data Platforması" }
   },
   "pricesPage": {
     "hero": { "title": "Qiymət Planları", "subtitle": "IOMETE Data Lakehouse platforması və konsaltinq xidmətləri üçün şəffaf qiymətlər." },

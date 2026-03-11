@@ -4,16 +4,13 @@
     "about": "About",
     "services": "Services",
     "portfolio": "Portfolio",
-    "prices": "Prices",
     "team": "Team",
-    "clients": "Clients",
-    "partners": "Partners",
+    "customers": "Customers",
     "contact": "Contact",
-    "docs": "Documentation",
-    "businessValue": "Business Value"
+    "docs": "Documentation"
   },
   "footer": {
-    "description": "DataLead Consulting — 18+ years of enterprise data management expertise. We help organizations transform their data into strategic assets.",
+    "description": "DataLead Consulting — Enterprise Data Resilience & AI-Ready Platforms. 25+ years of mission-critical data operations expertise. Turn your data into investment instantly.",
     "quickLinks": "Quick Links",
     "services": "Services",
     "contactUs": "Contact Us",
@@ -33,13 +30,13 @@
   "services": {
     "dbSupport": { "title": "24/7 Database Support", "description": "Round-the-clock monitoring and administration of all types of databases." },
     "postgresql": { "title": "PostgreSQL Services", "description": "Complete PostgreSQL deployment, migration, optimization and support." },
-    "dwh": { "title": "Data Warehouses & Data Lakes", "description": "Design and build enterprise data warehouses and data lakes." },
+    "dwh": { "title": "DWH & Data Lakehouse", "description": "Design and build enterprise data warehouses, data lakes, and modern Data Lakehouse architectures." },
     "nosql": { "title": "NoSQL Databases", "description": "Management and optimization of MongoDB, Cassandra, HBase and more." },
     "migration": { "title": "Database Migration", "description": "Safe and seamless migration between database platforms." },
     "training": { "title": "DBA Training", "description": "Professional training programs for database administrators." },
     "security": { "title": "Database Security", "description": "Comprehensive database security audits and implementations." },
-    "aiml": { "title": "AI & Machine Learning", "description": "Scalable AI/ML environments for model training and deployment." },
-    "platform": { "title": "Data Platform Deployment", "description": "Deploy and configure fully managed IOMETE data infrastructure." },
+    "aiml": { "title": "AI & Machine Learning", "description": "AI-ready data foundations, ML pipeline integration, and continuous model training on lakehouse platforms." },
+    "platform": { "title": "Data Platform (IOMETE)", "description": "Deploy AI-ready Data Lakehouse platforms powered by IOMETE with Apache Spark and Apache Iceberg." },
     "etl": { "title": "ETL/ELT Pipeline Design", "description": "Production-grade data pipelines with Spark, dbt and IOMETE." },
     "bi": { "title": "BI & Analytics Integration", "description": "Real-time dashboards with Power BI, Tableau, and Looker." },
     "governance": { "title": "Database Governance", "description": "Enterprise database governance, compliance and change management." }
@@ -55,7 +52,8 @@
   "servicesPage": {
     "hero": { "title": "Our Services", "subtitle": "Comprehensive data management and platform solutions for enterprises of all sizes." },
     "database": { "title": "Database & Infrastructure", "subtitle": "Expert administration, optimization and security for enterprise databases." },
-    "platform": { "title": "Data Platform (IOMETE)", "subtitle": "Modern cloud-native data lakehouse solutions powered by IOMETE." }
+    "platform": { "title": "Data Platform (IOMETE)", "subtitle": "Modern cloud-native data lakehouse solutions powered by IOMETE." },
+    "filters": { "all": "All Services", "database": "Database & Infrastructure", "platform": "Data Platform" }
   },
   "pricesPage": {
     "hero": { "title": "Pricing Plans", "subtitle": "Transparent pricing for IOMETE Data Lakehouse platform and consulting services." },

@@ -4,13 +4,10 @@ export const HomePage = lazy(() => import('@/pages/HomePage'))
 export const AboutPage = lazy(() => import('@/pages/AboutPage'))
 export const ServicesPage = lazy(() => import('@/pages/ServicesPage'))
 export const ContactPage = lazy(() => import('@/pages/ContactPage'))
-export const PricesPage = lazy(() => import('@/pages/PricesPage'))
 export const TeamPage = lazy(() => import('@/pages/TeamPage'))
 export const ClientsPage = lazy(() => import('@/pages/ClientsPage'))
-export const PartnersPage = lazy(() => import('@/pages/PartnersPage'))
 export const PortfolioPage = lazy(() => import('@/pages/PortfolioPage'))
 export const DocsPage = lazy(() => import('@/pages/DocsPage'))
-export const BusinessValuePage = lazy(() => import('@/pages/BusinessValuePage'))
 export const NotFoundPage = lazy(() => import('@/pages/NotFoundPage'))
 
 // Service sub-pages

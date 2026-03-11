@@ -22,7 +22,7 @@ export function StatsBar() {
 
   const stats = [
     { value: siteConfig.stats.yearsExperience, suffix: '+', label: t('stats.years') },
-    { value: siteConfig.stats.clients, suffix: '+', label: t('stats.clients') },
+    { value: siteConfig.stats.clients, suffix: '+', label: t('stats.customers') },
     { value: siteConfig.stats.projects, suffix: '+', label: t('stats.projects') },
     { value: 24, suffix: '/7', label: t('stats.support') },
   ]

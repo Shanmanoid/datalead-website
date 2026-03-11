@@ -7,10 +7,8 @@ import {
   AboutPage,
   ServicesPage,
   ContactPage,
-  PricesPage,
   TeamPage,
   ClientsPage,
-  PartnersPage,
   PortfolioPage,
   DocsPage,
   NotFoundPage,
@@ -26,7 +24,6 @@ import {
   EtlPipelinePage,
   BiAnalyticsPage,
   DbGovernancePage,
-  BusinessValuePage,
 } from '@/config/routes'
 
 function LoadingFallback() {
@@ -61,12 +58,9 @@ export default function App() {
               <Route path="services/etl-pipeline" element={<EtlPipelinePage />} />
               <Route path="services/bi-analytics" element={<BiAnalyticsPage />} />
               <Route path="services/db-governance" element={<DbGovernancePage />} />
-              <Route path="business-value" element={<BusinessValuePage />} />
               <Route path="portfolio" element={<PortfolioPage />} />
-              <Route path="prices" element={<PricesPage />} />
               <Route path="team" element={<TeamPage />} />
               <Route path="clients" element={<ClientsPage />} />
-              <Route path="partners" element={<PartnersPage />} />
               <Route path="docs" element={<DocsPage />} />
               <Route path="contact" element={<ContactPage />} />
               <Route path="*" element={<NotFoundPage />} />

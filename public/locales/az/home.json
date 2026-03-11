@@ -1,40 +1,36 @@
 {
   "hero": {
-    "badge": "18+ il təcrübə",
-    "title": "Sizin verilənləriniz.",
-    "titleHighlight": "Bizim ekspertizamız.",
-    "subtitle": "Korporativ verilənlər bazası konsaltinqi, müasir data platforması quraşdırılması və qabaqcıl analitika — Azərbaycan və onun hüdudlarından kənar təşkilatlar üçün.",
+    "badge": "25+ il korporativ təcrübə",
+    "title": "Verilənlərinizi",
+    "titleHighlight": "İnvestisiyaya Çevirin.",
+    "subtitle": "Korporativ məlumat dayanıqlığı, AI-yə hazır platformalar və missiya-kritik verilənlər bazası əməliyyatları — Azərbaycan və onun hüdudlarından kənar təşkilatlar üçün gəliri qorumaq və inkişafı mümkün etmək.",
     "cta1": "Xidmətlərimiz",
     "cta2": "Bizimlə əlaqə"
   },
   "stats": {
     "years": "İllik təcrübə",
-    "clients": "Korporativ müştəri",
+    "customers": "Korporativ müştəri",
     "projects": "Tamamlanmış layihə",
     "support": "Dəstək mövcudluğu"
   },
   "servicesSection": {
     "title": "Nə edirik",
-    "subtitle": "Ənənəvi verilənlər bazası idarəetməsindən müasir Data Lakehouse həllərinə qədər — biz tam spektri əhatə edirik.",
+    "subtitle": "Missiya-kritik verilənlər bazası əməliyyatlarından AI-yə hazır Data Lakehouse platformalarına qədər — biz tam spektrdə korporativ məlumat dayanıqlığı təqdim edirik.",
     "viewAll": "Bütün xidmətlər"
   },
   "about": {
     "badge": "DataLead haqqında",
-    "title": "2006-cı ildən etibarlı data ekspertləri",
-    "text": "DataLead Consulting — korporativ verilənlər bazası administrasiyası, data platforması quraşdırılması və qabaqcıl analitika sahəsində ixtisaslaşmış aparıcı data idarəetmə firmasıdır. Oracle, MS-SQL, PostgreSQL və açıq mənbəli texnologiyalar üzrə sertifikatlara sahibik."
+    "title": "Korporativ Məlumat Dayanıqlığı və AI-yə Hazır Platformalar",
+    "text": "DataLead Consulting missiya-kritik mühitlər üçün korporativ məlumat dayanıqlığı partnyorudur. Biz təhlükəsiz, yüksək əlçatanlıqlı və sürətli cavab verən məlumat platformaları layihələndirib idarə edirik. Oracle, PostgreSQL, IOMETE və açıq mənbəli texnologiyalar üzrə 25+ illik təcrübə ilə dövlət qurumlarına, banklara, telekommunikasiya və böyük miqyaslı rəqəmsal müəssisələrə xidmət göstəririk. Komandamız 1700+ verilənlər bazası, 8 PB+ korporativ məlumat idarə edir, 99.98% iş vaxtı və 4 dəqiqə kritik insident cavabı ilə."
   },
   "techCards": {
     "oracle": { "desc": "Korporativ DB İdarəetmə və RAC" },
     "postgresql": { "desc": "Açıq Mənbəli DB Platforması" },
-    "iomete": { "desc": "Müasir Data Lakehouse Həlli" },
-    "spark": { "desc": "Böyük Data Emal Mühərriki" }
+    "iomete": { "desc": "AI-yə Hazır Data Lakehouse Platforması" },
+    "spark": { "desc": "Böyük Data və ML Emal Mühərriki" }
   },
-  "clients": {
+  "customers": {
     "title": "Müştərilərimiz",
     "subtitle": "Azərbaycanın aparıcı təşkilatları bizə etibar edir."
-  },
-  "partners": {
-    "title": "Texnoloji partnyorlar",
-    "subtitle": "Sənaye liderləri ilə strateji tərəfdaşlıqlar."
   }
 }

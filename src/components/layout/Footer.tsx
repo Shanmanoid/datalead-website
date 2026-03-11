@@ -30,7 +30,6 @@ export function Footer() {
                 { path: '/about', label: t('nav.about') },
                 { path: '/services', label: t('nav.services') },
                 { path: '/portfolio', label: t('nav.portfolio') },
-                { path: '/prices', label: t('nav.prices') },
               ].map(link => (
                 <li key={link.path}>
                   <Link

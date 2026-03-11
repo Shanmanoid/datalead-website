@@ -1,28 +1,28 @@
 {
   "hero": {
     "title": "DataLead haqqında",
-    "subtitle": "18+ il korporativ verilənlər idarəetməsində mükəmməllik."
+    "subtitle": "25+ il korporativ məlumat dayanıqlığı və AI-yə hazır platforma təcrübəsi."
   },
   "mission": {
     "title": "Missiyamız",
-    "text1": "DataLead Consulting vahid bir vizyonla yaradılıb: təşkilatlara verilənlərini strateji investisiyalara çevirməyə kömək etmək. 18 il ərzində ixtisaslaşdırılmış verilənlər bazası konsaltinqindən hərtərəfli data həlləri təminatçısına çevrildik.",
-    "text2": "Bu gün biz Azərbaycan üzrə dövlət qurumlarına, maliyyə institutlarına və müəssisələrə xidmət göstəririk — 7/24 DB dəstəyindən tutmuş IOMETE ilə müasir Data Lakehouse quraşdırılmasına qədər.",
-    "quote": "Verilənlərinizi investisiyalara çevirin — bu sadəcə şüarımız deyil, vədimizdir."
+    "text1": "DataLead Consulting missiya-kritik mühitlər üçün korporativ məlumat dayanıqlığı partnyorudur. Biz dayanma vaxtının mümkün olmadığı təşkilatlar üçün təhlükəsiz, yüksək əlçatanlıqlı və sürətli cavab verən məlumat platformaları layihələndirib idarə edirik.",
+    "text2": "Bu gün biz Azərbaycan üzrə dövlət qurumlarına, maliyyə institutlarına, telekommunikasiya və böyük miqyaslı rəqəmsal müəssisələrə xidmət göstəririk — 24/7 missiya-kritik DB əməliyyatlarından IOMETE ilə AI-yə hazır Data Lakehouse platformalarına qədər. 1700+ verilənlər bazası, 8 PB+ korporativ məlumat, 99.98% sübut edilmiş iş vaxtı.",
+    "quote": "Verilənlərinizi dərhal investisiyaya çevirin — bu sadəcə şüarımız deyil, vədimizdir."
   },
   "values": {
     "title": "Dəyərlərimiz",
     "subtitle": "Bütün fəaliyyətimizə rəhbərlik edən prinsiplər.",
-    "expertise": { "title": "Dərin ekspertiza", "desc": "Oracle, PostgreSQL, MS-SQL və müasir data platformaları üzrə praktik təcrübəyə malik sertifikatlı peşəkarlar." },
-    "innovation": { "title": "İnnovasiya", "desc": "IOMETE, Apache Spark və bulud-nativ həllər kimi qabaqcıl texnologiyaların daim tətbiqi." },
-    "quality": { "title": "Keyfiyyət hər şeydən əvvəl", "desc": "Korporativ standartlara cavab verən yüksək keyfiyyətli, istehsala hazır həllərin təqdim edilməsinə 100% sadiqlik." },
-    "partnership": { "title": "Əsl tərəfdaşlıq", "desc": "Biz müştərilərimizlə sadəcə xidmət təminatçıları deyil, etibarlı məsləhətçilər kimi işləyirik." }
+    "expertise": { "title": "Dərin ekspertiza", "desc": "Oracle, PostgreSQL, IOMETE, Apache Spark və müasir data platformaları üzrə 25+ illik praktik təcrübəyə malik sertifikatlı peşəkarlar." },
+    "innovation": { "title": "İnnovasiya", "desc": "AI-yə hazır Data Lakehouse arxekturaları, Apache Iceberg inteqrasiyası və maşın idarəli era üçün yeni nəsil data platformaları." },
+    "quality": { "title": "Korporativ Dayanıqlılıq", "desc": "Altı dayanıqlılıq sütunu — Qarşısını Alma, Qoruma, Hazırlıq, Cavab, Bərpa, İdarəetmə — hər əməkdaşlığa daxil edilib." },
+    "partnership": { "title": "Əsl tərəfdaşlıq", "desc": "Biz müştərilərimizlə etibarlı məsləhətçilər kimi işləyirik, təcrid olunmuş İT xidmətləri deyil, korporativ məlumat davamlılığı təqdim edirik." }
   },
   "timeline": {
     "title": "Bizim yolumuz",
     "subtitle": "İnkişaf hekayəmizdəki əsas mərhələlər.",
-    "y1": { "year": "2006", "title": "Şirkətin yaradılması", "desc": "DataLead Consulting Bakıda yaradıldı, Oracle verilənlər bazası administrasiyası ilə başladı." },
-    "y2": { "year": "2012", "title": "Dövlət tərəfdaşlıqları", "desc": "Azərbaycanın dövlət qurumlarına, o cümlədən Vergi Xidməti və Gömrük Komitəsinə xidmət göstərməyə başladı." },
-    "y3": { "year": "2018", "title": "Açıq mənbə genişlənməsi", "desc": "PostgreSQL, NoSQL və böyük data texnologiyalarına (Cloudera, Apache) genişlənmə." },
-    "y4": { "year": "2023", "title": "IOMETE tərəfdaşlığı", "desc": "IOMETE-nin rəsmi tərəfdaşı olaraq müasir Data Lakehouse həlləri təklif etməyə başladı." }
+    "y1": { "year": "2001", "title": "Komanda başlanğıcı", "desc": "Təsis edən ekspertlərimiz missiya-kritik dövlət və bank mühitlərində korporativ verilənlər bazalarını idarə etməyə başladı." },
+    "y2": { "year": "2012", "title": "Dövlət tərəfdaşlıqları", "desc": "Azərbaycanın dövlət qurumlarının, o cümlədən Vergi Xidməti, Gömrük Komitəsi və nazirliklərinin etibarlı tərəfdaşı oldu." },
+    "y3": { "year": "2018", "title": "Açıq mənbə və Böyük Data", "desc": "PostgreSQL, NoSQL, Böyük Data ekosistemlərinə (Cloudera, Apache Spark, Cassandra) genişlənmə." },
+    "y4": { "year": "2023", "title": "AI Era Platformaları", "desc": "IOMETE-nin rəsmi tərəfdaşı olaraq AI, qabaqcıl analitika və korporativ dayanıqlılıq üçün Data Lakehouse platformaları təqdim etməyə başladı." }
   }
 }

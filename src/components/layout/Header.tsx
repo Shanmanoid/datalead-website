@@ -28,12 +28,9 @@ export function Header() {
     { path: '/', label: t('nav.home') },
     { path: '/about', label: t('nav.about') },
     { path: '/services', label: t('nav.services') },
-    { path: '/business-value', label: t('nav.businessValue') },
     { path: '/portfolio', label: t('nav.portfolio') },
-    { path: '/prices', label: t('nav.prices') },
     { path: '/team', label: t('nav.team') },
-    { path: '/clients', label: t('nav.clients') },
-    { path: '/partners', label: t('nav.partners') },
+    { path: '/clients', label: t('nav.customers') },
     { path: '/contact', label: t('nav.contact') },
   ]
 
