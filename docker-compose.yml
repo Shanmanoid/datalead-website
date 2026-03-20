@@ -1,0 +1,6 @@
+services:
+  app:
+    image: ghcr.io/shanmanoid/datalead-website:latest
+    volumes:
+      - /var/www/datalead-website:/output
+    restart: "no"

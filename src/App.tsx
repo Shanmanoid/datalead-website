@@ -39,7 +39,7 @@ export default function App() {
 
   return (
     <ThemeContext.Provider value={themeValue}>
-      <BrowserRouter>
+      <BrowserRouter basename="/datalead">
         <Suspense fallback={<LoadingFallback />}>
           <Routes>
             <Route element={<RootLayout />}>
