@@ -3,6 +3,7 @@ import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { ExternalLink } from 'lucide-react'
+import { publicPath } from '@/utils/publicPath'
 
 const partners: {
   name: string
@@ -42,7 +43,7 @@ export default function PartnersPage() {
                     <div className="flex items-center justify-between mb-4">
                       <div className="flex items-center gap-3">
                         <img
-                          src={partner.logo}
+                          src={publicPath(partner.logo)}
                           alt={partner.name}
                           className="h-14 w-auto object-contain group-hover:scale-105 transition-transform"
                         />

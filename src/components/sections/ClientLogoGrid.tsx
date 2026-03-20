@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'motion/react'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionHeading } from '@/components/ui/SectionHeading'
+import { publicPath } from '@/utils/publicPath'
 
 interface ClientItem {
   name: string
@@ -35,7 +36,7 @@ export function ClientLogoGrid() {
                 className="group flex flex-col items-center justify-center h-36 rounded-xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-lg transition-all duration-300 p-5"
               >
                 <img
-                  src={client.logo}
+                  src={publicPath(client.logo)}
                   alt={client.name}
                   className="h-16 w-auto object-contain mb-3 group-hover:scale-110 transition-transform"
                 />

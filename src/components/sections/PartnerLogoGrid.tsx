@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'motion/react'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionHeading } from '@/components/ui/SectionHeading'
+import { publicPath } from '@/utils/publicPath'
 
 interface Partner {
   name: string
@@ -34,7 +35,7 @@ export function PartnerLogoGrid() {
                 className="group relative flex flex-col items-center justify-center h-40 rounded-xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-lg transition-all duration-300 p-6 overflow-hidden"
               >
                 <img
-                  src={partner.logo}
+                  src={publicPath(partner.logo)}
                   alt={partner.name}
                   className="h-14 w-auto object-contain mb-3 group-hover:scale-110 transition-transform"
                 />
