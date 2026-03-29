@@ -70,6 +70,22 @@ export default function ClientsPage() {
         </div>
       </section>
 
+      {/* Industries We Serve */}
+      <section className="py-16">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <SectionHeading title={t('industries.title')} subtitle="" />
+          <div className="mt-8 flex flex-wrap justify-center gap-3">
+            {(t('industries.items', { returnObjects: true }) as string[]).map((item, i) => (
+              <ScrollReveal key={i} delay={i * 0.08}>
+                <span className="inline-block px-5 py-2.5 rounded-xl bg-brand/5 text-brand font-medium text-sm border border-brand/10">
+                  {item}
+                </span>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading title={t('section.title')} subtitle={t('section.subtitle')} />

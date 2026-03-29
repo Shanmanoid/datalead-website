@@ -49,7 +49,7 @@
   },
   "domains": {
     "title": "Çərçivədən İcraya",
-    "subtitle": "Korporativ dayanıqlılığı 4 strateji imkan sahəsinə çeviririk.",
+    "subtitle": "Korporativ dayanıqlılığı 5 strateji imkan sahəsinə çeviririk.",
     "missionCritical": {
       "title": "Missiya-Kritik Verilənlər Bazası Əməliyyatları",
       "tagline": "İş vaxtı gəliri idarə edəndə, dayanıqlılıq korporativ dəyəri qoruyur.",
@@ -200,10 +200,111 @@
         "results": {
           "title": "Ölçülə Bilən Təsir",
           "items": ["Lisenziya xərcləri 60% azaldıldı", "İnfrastruktur xərcləri 35% azaldıldı", "Performans 40% yaxşılaşdı", "Satıcı asılılığı əhəmiyyətli dərəcədə azaldıldı"],
-          "conclusion": "İT infrastrukturu xərc mərkəzindən proqnozlaşdırıla bilən, miqyaslanan maliyyə aktivinə çevrildi"
+          "conclusion": "İT infrastrukturu xərc m��rkəzindən proqnozlaşdırıla bilən, miqyaslanan maliyyə aktivinə çevrildi"
+        }
+      }
+    },
+    "mlAi": {
+      "title": "Maşın Öyrənməsi və AI Həlləri",
+      "tagline": "Strategiyadan istehsal yerləşdirməsinə qədər tam AI imkanları.",
+      "deliver": {
+        "title": "Nə Təqdim Edirik",
+        "items": [
+          "AI Strategiyası və İstifadə Halı Mühəndisliyi",
+          "Data Elmi və Təkmilləşdirilmiş Analitika",
+          "Maşın Öyrənməsi Mühəndisliyi",
+          "MLOps və İstehsal Yerləşdirməsi",
+          "Sahəyə Xas Tətbiqi AI Həlləri"
+        ]
+      },
+      "impact": {
+        "title": "Biznes Təsiri",
+        "items": [
+          "Artırılmış analitik yetkinlik",
+          "Təkmilləşdirilmiş avtomatlaşdırma və qərar intellekti",
+          "Sürətləndirilmiş AI yerləşdirməsi",
+          "İdarəetmə ilə uyğunlaşdırılmış istehsal səviyyəli AI"
+        ]
+      },
+      "aiDomains": {
+        "title": "AI Həll Sahələri",
+        "subtitle": "Korporativ idarəetmə və tənzimləmə tələbləri ilə uyğunlaşdırılmış təhlükəsiz, istehsal səviyyəli AI sistemləri qururuq.",
+        "items": [
+          {
+            "title": "Kompüter Görmə və Video İntellekt",
+            "desc": "Sənaye və təhlükəsizlik tətbiqləri üçün görüntü tanıma, obyekt aşkarlama və video analitika."
+          },
+          {
+            "title": "Dövlət və Müəssisə üçün Dil Modelləri",
+            "desc": "Tənzimlənən mühitlərdə sənəd emalı, axtarış və qərar dəstəyi üçün xüsusi LLM həlləri."
+          },
+          {
+            "title": "Bankçılıq və Dövlət Maliyyəsi üçün Analitik AI Agentləri",
+            "desc": "Fırıldaqçılıq aşkarlama, risk qiymətləndirmə və maliyyə analitikası avtomatlaşdırması üçün ağıllı agentlər."
+          }
+        ]
+      },
+      "caseStudy": {
+        "label": "Keys Stadi",
+        "context": "AI təşəbbüslərini pilot mərhələsindən bir neçə biznes vahidində istehsal səviyyəli yerləşdirmələrə miqyaslandırmağa çalışan müəssisə.",
+        "challenge": {
+          "title": "Problem",
+          "items": [
+            "AI təşəbbüsləri konsepsiya sübut mərhələsində dayanır",
+            "Standartlaşdırılmış MLOps boru kəməri yoxdur",
+            "Data keyfiyyəti problemləri model öyrətməsini əngəlləyir",
+            "AI model həyat dövrü üçün idarəetmə yoxdur"
+          ],
+          "summary": "AI investisiyası ölçülə bilən biznes nəticələrinə çevrilmir"
+        },
+        "intervention": {
+          "title": "Müdaxiləmiz",
+          "items": [
+            "AI strategiyasının biznes məqsədləri ilə uyğunlaşdırılması",
+            "MLOps boru kəməri tətbiqi",
+            "Data keyfiyyəti və xüsusiyyət mühəndisliyi çərçivələri",
+            "Monitorinqlə istehsal yerləşdirməsi",
+            "AI həyat dövrü üçün idarəetmə inteqrasiyası"
+          ]
+        },
+        "results": {
+          "title": "Ölçülə Bilən Təsir",
+          "items": [
+            "AI yerləşdirmə dövrü 50% azaldıldı",
+            "Daha yaxşı data boru kəmərləri ilə model dəqiqliyi artırıldı",
+            "İlk rübdə 3 AI halı istehsala keçirildi",
+            "Model qərarları üçün tam audit izi"
+          ],
+          "conclusion": "AI eksperimental investisiyadan idarə olunan, miqyaslanan korporativ imkana çevrildi"
         }
       }
     }
+  },
+  "engagementModel": {
+    "title": "Çərçivədən İcraya",
+    "subtitle": "Strukturlaşdırılmış çatdırma modelimiz proqnozlaşdırılanlıq, şəffaflıq və ölçülə bilən performans nəticələri təmin edir.",
+    "phases": [
+      {
+        "title": "İnfrastruktur və Risk Qiymətləndirməsi",
+        "desc": "Cari məlumat mühitinin, risk təsirinin və əməliyyat boşluqlarının hərtərəfli qiymətləndirilməsi."
+      },
+      {
+        "title": "Arxitektura Dizaynı və Yol Xəritəsi",
+        "desc": "Biznes məqsədləri ilə uyğunlaşdırılmış təsdiqlənmiş texniki və əməliyyat dizaynı."
+      },
+      {
+        "title": "Tətbiq və Sabitləşdirmə",
+        "desc": "İstehsala hazır, təhlükəsiz və miqyaslanan məlumat əsası yerləşdirməsi."
+      },
+      {
+        "title": "Davamlı 24/7 Əməliyyatlar",
+        "desc": "Proaktiv monitorinqlə sabit, idarə olunan və miqyaslanan korporativ əməliyyat."
+      },
+      {
+        "title": "İdarəetmə Monitorinqi və İcraçı Hesabatı",
+        "desc": "Uyğunluq nəzarəti, audit görünürlüyü və icraçı risk nəzarəti."
+      }
+    ]
   },
   "dellCaseStudy": {
     "title": "Korporativ Keys Stadi",
@@ -212,6 +313,11 @@
     "whyDataLead": {
       "title": "Niyə DataLead",
       "items": ["Korporativ məlumat strategiyası ilə arxitektura uyğunluğu", "Missiya-kritik infrastruktura inteqrasiya", "Əməliyyat intizamı və sürətli icra qabiliyyəti"]
+    },
+    "quote": {
+      "text": "IOMETE platforması məhsul vizyonumuzla tam uyğun idi və illik milyonlarla qənaət etməyimizə imkan verdi. Onların FDE-ləri təşkilatımızın bir hissəsidir və bizi 3 dəfə daha sürətli edir.",
+      "author": "Məlumat Platformaları Direktoru",
+      "company": "Dell Technologies"
     },
     "impact": {
       "title": "Ölçülə Bilən Təsir",
@@ -253,7 +359,8 @@
       "missionCritical": { "title": "Missiya-Kritik DB Əməliyyatları", "desc": "Gəliri qoruyur və əməliyyat davamlılığını təmin edir" },
       "aiPlatforms": { "title": "AI-yə Hazır Məlumat Platformaları", "desc": "Etibarlı analitika və miqyaslanan AI mənimsənilməsini mümkün edir" },
       "dataEngineering": { "title": "Məlumat Mühəndisliyi və İdarəetmə", "desc": "İnteqrasiya riskini azaldır və məlumat etibarını gücləndirir" },
-      "modernization": { "title": "Xərc-Səmərəli Modernizasiya", "desc": "Xərc proqnozlaşdırılmasını və uzunmüddətli miqyaslanmanı yaxşılaşdırır" }
+      "modernization": { "title": "Xərc-Səmərəli Modernizasiya", "desc": "Xərc proqnozlaşdırılmasını və uzunmüddətli miqyaslanmanı yaxşılaşdırır" },
+      "mlAi": { "title": "Maşın Öyrənməsi və AI Həlləri", "desc": "Strategiyadan istehsal yerləşdirməsinə qədər tam AI" }
     }
   }
 }

@@ -49,7 +49,7 @@
   },
   "domains": {
     "title": "From Framework to Execution",
-    "subtitle": "We translate enterprise resilience into 4 strategic capability domains.",
+    "subtitle": "We translate enterprise resilience into 5 strategic capability domains.",
     "missionCritical": {
       "title": "Mission-Critical Database Operations",
       "tagline": "When uptime drives revenue, resilience protects enterprise value.",
@@ -320,7 +320,108 @@
           "conclusion": "IT infrastructure transformed from a cost center into a predictable, scalable financial asset"
         }
       }
+    },
+    "mlAi": {
+      "title": "Machine Learning & AI Solutions",
+      "tagline": "End-to-end AI capabilities — from strategy to production deployment.",
+      "deliver": {
+        "title": "What We Deliver",
+        "items": [
+          "AI Strategy & Use-Case Engineering",
+          "Data Science & Advanced Analytics",
+          "Machine Learning Engineering",
+          "MLOps & Production Deployment",
+          "Domain-Specific Applied AI Solutions"
+        ]
+      },
+      "impact": {
+        "title": "Business Impact",
+        "items": [
+          "Increased analytical maturity",
+          "Improved automation and decision intelligence",
+          "Accelerated AI deployment",
+          "Production-grade AI aligned with governance"
+        ]
+      },
+      "aiDomains": {
+        "title": "AI Solution Domains",
+        "subtitle": "We build secure, production-grade AI systems aligned with enterprise governance and regulatory requirements.",
+        "items": [
+          {
+            "title": "Computer Vision & Video Intelligence",
+            "desc": "Image recognition, object detection, and video analytics for industrial and security applications."
+          },
+          {
+            "title": "Language Models for Government & Enterprise",
+            "desc": "Custom LLM solutions for document processing, search, and decision support in regulated environments."
+          },
+          {
+            "title": "Analytical AI Agents for Banking & Public Finance",
+            "desc": "Intelligent agents for fraud detection, risk scoring, and financial analytics automation."
+          }
+        ]
+      },
+      "caseStudy": {
+        "label": "Case Study",
+        "context": "Enterprise seeking to scale AI initiatives beyond pilot stage into production-grade deployments across multiple business units.",
+        "challenge": {
+          "title": "Challenge",
+          "items": [
+            "AI initiatives stalling at proof-of-concept stage",
+            "No standardized MLOps pipeline",
+            "Data quality issues blocking model training",
+            "Lack of governance for AI model lifecycle"
+          ],
+          "summary": "AI investment not translating into measurable business outcomes"
+        },
+        "intervention": {
+          "title": "Our Intervention",
+          "items": [
+            "AI strategy alignment with business objectives",
+            "MLOps pipeline implementation",
+            "Data quality and feature engineering frameworks",
+            "Production deployment with monitoring",
+            "Governance integration for AI lifecycle"
+          ]
+        },
+        "results": {
+          "title": "Measurable Impact",
+          "items": [
+            "AI deployment cycle reduced by 50%",
+            "Model accuracy improved through better data pipelines",
+            "3 AI use cases moved to production in first quarter",
+            "Full audit trail for model decisions"
+          ],
+          "conclusion": "AI transformed from experimental investment into a governed, scalable enterprise capability"
+        }
+      }
     }
+  },
+  "engagementModel": {
+    "title": "From Framework to Execution",
+    "subtitle": "Our structured delivery model ensures predictability, transparency, and measurable performance outcomes.",
+    "phases": [
+      {
+        "title": "Infrastructure & Risk Assessment",
+        "desc": "Comprehensive evaluation of current data environment, risk exposure, and operational gaps."
+      },
+      {
+        "title": "Architecture Design & Roadmap",
+        "desc": "Approved technical and operational design aligned with business objectives."
+      },
+      {
+        "title": "Implementation & Stabilization",
+        "desc": "Production-ready, secure, and scalable data foundation deployment."
+      },
+      {
+        "title": "Continuous 24/7 Operations",
+        "desc": "Stable, controlled, and scalable enterprise operation with proactive monitoring."
+      },
+      {
+        "title": "Governance Monitoring & Executive Reporting",
+        "desc": "Compliance oversight, audit visibility, and executive risk control."
+      }
+    ]
   },
   "dellCaseStudy": {
     "title": "Enterprise Case Study",
@@ -333,6 +434,11 @@
         "Integration into mission-critical infrastructure",
         "Operational discipline and rapid execution capability"
       ]
+    },
+    "quote": {
+      "text": "IOMETE's platform was closely aligned with our product vision and allowed us to save millions annually. Their FDEs are part of our org and make us go 3x faster.",
+      "author": "Director of Data Platforms",
+      "company": "Dell Technologies"
     },
     "impact": {
       "title": "Measurable Impact",
@@ -424,7 +530,8 @@
       "missionCritical": { "title": "Mission-Critical DB Operations", "desc": "Protects revenue and ensures operational continuity" },
       "aiPlatforms": { "title": "AI-Ready Data Platforms", "desc": "Enables reliable analytics and scalable AI adoption" },
       "dataEngineering": { "title": "Data Engineering & Governance", "desc": "Reduces integration risk and strengthens data trust" },
-      "modernization": { "title": "Cost-Efficient Modernization", "desc": "Improves cost predictability and long-term scalability" }
+      "modernization": { "title": "Cost-Efficient Modernization", "desc": "Improves cost predictability and long-term scalability" },
+      "mlAi": { "title": "Machine Learning & AI Solutions", "desc": "End-to-end AI from strategy to production deployment" }
     }
   }
 }

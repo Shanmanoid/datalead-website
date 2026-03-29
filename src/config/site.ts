@@ -3,7 +3,7 @@ export const siteConfig = {
   description: 'Enterprise Data Resilience & AI-Ready Platforms',
   url: 'https://datalead.az',
   contact: {
-    phone: '+994 12 464 10 55',
+    phone: '+994 50 210 70 69',
     email: 'office@datalead.az',
     address: '"Aga Center" BC, 55 Khojali Avenue, Baku, Azerbaijan',
   },

@@ -57,12 +57,15 @@
       "f4": "Data maskalama və uyğunluq (GDPR, PCI-DSS)"
     },
     "aiml": {
-      "problem": "Təşkilatlar süni intellekt və maşın öyrənməsindən istifadə etmək istəyir, lakin modelləri effektiv öyrətmək və yerləşdirmək üçün lazım olan miqyaslana bilən data infrastrukturuna malik deyil.",
-      "solution": "Data platformanızla inteqrasiya olunmuş miqyaslana bilən ML mühitləri qururuq ki, data mütəxəssisləri korporativ miqyasda modelləri öyrədə, yerləşdirə və monitorinq edə bilsinlər.",
-      "f1": "ML üçün hazır data platforması quraşdırması",
-      "f2": "Xüsusiyyət mühəndisliyi boru kəmərləri",
-      "f3": "Model öyrətmə infrastrukturu (Spark MLlib)",
-      "f4": "Model yerləşdirilməsi və monitorinqi"
+      "problem": "Təşkilatlar AI və maşın öyrənməsindən istifadə etmək istəyir, lakin AI-ni pilotdan istehsala keçirmək üçün lazım olan miqyaslana bilən data infrastrukturuna, MLOps təcrübələrinə və sahə ekspertizasına malik deyil.",
+      "solution": "AI strategiyası və istifadə halı mühəndisliyindən MLOps, istehsal yerləşdirməsi və sahəyə xas tətbiqi AI həllərinə qədər tam maşın öyrənməsi imkanları təqdim edirik.",
+      "f1": "AI Strategiyası və İstifadə Halı Mühəndisliyi",
+      "f2": "Data Elmi və Təkmilləşdirilmiş Analitika",
+      "f3": "Maşın Öyrənməsi Mühəndisliyi (Spark MLlib, TensorFlow)",
+      "f4": "MLOps və İstehsal Yerləşdirməsi",
+      "f5": "Kompüter Görmə və Video İntellekt",
+      "f6": "Dövlət və Müəssisə üçün Dil Modelləri",
+      "f7": "Bankçılıq və Dövlət Maliyyəsi üçün Analitik AI Agentləri"
     },
     "platform": {
       "problem": "Ənənəvi data infrastrukturu parçalanmış, bahalı və miqyaslandırılması çətindir. Təşkilatlara saxlama, emal və analitikanı idarə edən vahid platforma lazımdır.",

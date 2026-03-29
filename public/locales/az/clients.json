@@ -5,7 +5,17 @@
   },
   "section": {
     "title": "Kimlərlə işləyirik",
-    "subtitle": "Dövlət qurumlarından böyük maliyyə institutlarına və müəssisələrə qədər."
+    "subtitle": "Dövlət qurumlarından böyük maliyyə institutlarına, telekommunikasiya və rəqəmsal müəssisələrə qədər."
+  },
+  "industries": {
+    "title": "Xidmət Göstərdiyimiz Sahələr",
+    "items": [
+      "Bank və maliyyə xidmətləri",
+      "Telekommunikasiya",
+      "Dövlət və ictimai sektor",
+      "Böyük miqyaslı rəqəmsal müəssisələr",
+      "AI transformasiyası aparan təşkilatlar"
+    ]
   },
   "sectors": {
     "government": "Dövlət sektoru",

@@ -2,7 +2,8 @@ import { useTranslation } from 'react-i18next'
 import { motion } from 'motion/react'
 import {
   Shield, Brain, GitBranch, TrendingDown, CheckCircle, ArrowRight,
-  AlertTriangle, Clock, CloudOff, Gavel, ChevronRight, X, Check
+  AlertTriangle, Clock, CloudOff, Gavel, ChevronRight, X, Check,
+  BrainCircuit, Eye, MessageSquare, BarChart3
 } from 'lucide-react'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
@@ -14,7 +15,10 @@ const domains = [
   { key: 'aiPlatforms', icon: Brain, gradient: 'from-emerald-500 to-teal-600' },
   { key: 'dataEngineering', icon: GitBranch, gradient: 'from-orange-500 to-amber-600' },
   { key: 'modernization', icon: TrendingDown, gradient: 'from-purple-500 to-violet-600' },
+  { key: 'mlAi', icon: BrainCircuit, gradient: 'from-rose-500 to-pink-600' },
 ]
+
+const aiDomainIcons = [Eye, MessageSquare, BarChart3]
 
 const riskStats = [
   { key: 'downtime', icon: Clock, color: 'text-red-500', bg: 'bg-red-500/10' },
@@ -223,6 +227,61 @@ export function BusinessValuePreview() {
         </div>
       </section>
 
+      {/* AI Solution Domains */}
+      <section className="py-20 bg-gradient-to-b from-surface to-surface-alt">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <SectionHeading
+              title={t('domains.mlAi.aiDomains.title')}
+              subtitle={t('domains.mlAi.aiDomains.subtitle')}
+            />
+          </ScrollReveal>
+
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6">
+            {(t('domains.mlAi.aiDomains.items', { returnObjects: true }) as Array<{ title: string; desc: string }>).map((item, i) => {
+              const Icon = aiDomainIcons[i]
+              return (
+                <ScrollReveal key={i} delay={i * 0.1} className="h-full">
+                  <div className="h-full flex flex-col p-6 rounded-2xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-lg transition-all duration-300">
+                    <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-rose-500 to-pink-600 flex items-center justify-center mb-4">
+                      <Icon size={24} className="text-white" />
+                    </div>
+                    <h4 className="text-lg font-bold text-text-primary mb-2">{item.title}</h4>
+                    <p className="text-sm text-text-secondary">{item.desc}</p>
+                  </div>
+                </ScrollReveal>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Engagement Model */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <ScrollReveal>
+            <SectionHeading
+              title={t('engagementModel.title')}
+              subtitle={t('engagementModel.subtitle')}
+            />
+          </ScrollReveal>
+
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-5 gap-4">
+            {(t('engagementModel.phases', { returnObjects: true }) as Array<{ title: string; desc: string }>).map((phase, i) => (
+              <ScrollReveal key={i} delay={i * 0.08} className="h-full">
+                <div className="h-full flex flex-col items-center text-center p-5 rounded-xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-md transition-all duration-300">
+                  <div className="w-10 h-10 rounded-full bg-brand/10 flex items-center justify-center mb-3">
+                    <span className="text-brand font-bold text-sm">{i + 1}</span>
+                  </div>
+                  <h4 className="font-semibold text-text-primary text-sm mb-2">{phase.title}</h4>
+                  <p className="text-xs text-text-secondary mt-auto">{phase.desc}</p>
+                </div>
+              </ScrollReveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* Six Pillars of Resilience + Operational Cycle */}
       <section className="py-20 bg-gradient-to-b from-surface to-surface-alt">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -291,6 +350,16 @@ export function BusinessValuePreview() {
               <p className="text-sm text-text-secondary text-center mb-6">
                 {t('dellCaseStudy.challenge')}
               </p>
+
+              {/* Dell Quote */}
+              <div className="mb-8 p-6 rounded-xl bg-brand/5 border border-brand/10">
+                <blockquote className="text-sm italic text-text-primary text-center leading-relaxed">
+                  "{t('dellCaseStudy.quote.text')}"
+                </blockquote>
+                <p className="mt-3 text-xs text-text-muted text-center font-medium">
+                  — {t('dellCaseStudy.quote.author')}, {t('dellCaseStudy.quote.company')}
+                </p>
+              </div>
 
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div>

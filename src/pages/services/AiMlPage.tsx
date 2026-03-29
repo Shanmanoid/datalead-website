@@ -13,8 +13,11 @@ export default function AiMlPage() {
         'services.aiml.f2',
         'services.aiml.f3',
         'services.aiml.f4',
+        'services.aiml.f5',
+        'services.aiml.f6',
+        'services.aiml.f7',
       ]}
-      technologies={['Python', 'TensorFlow', 'Apache Spark MLlib', 'IOMETE']}
+      technologies={['Python', 'TensorFlow', 'Apache Spark MLlib', 'IOMETE', 'Kubernetes']}
       icon={<BrainCircuit size={32} />}
     />
   )

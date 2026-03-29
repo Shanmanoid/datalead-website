@@ -57,12 +57,15 @@
       "f4": "Data masking and compliance (GDPR, PCI-DSS)"
     },
     "aiml": {
-      "problem": "Organizations want to leverage AI and machine learning but lack the scalable data infrastructure and expertise needed to train and deploy models effectively.",
-      "solution": "We build scalable ML environments integrated with your data platform, enabling data scientists to train, deploy, and monitor models at enterprise scale.",
-      "f1": "ML-ready data platform setup",
-      "f2": "Feature engineering pipelines",
-      "f3": "Model training infrastructure (Spark MLlib)",
-      "f4": "Model deployment and monitoring"
+      "problem": "Organizations want to leverage AI and machine learning but lack the scalable data infrastructure, MLOps practices, and domain expertise needed to move AI from pilot to production.",
+      "solution": "We deliver end-to-end machine learning capabilities — from AI strategy and use-case engineering to MLOps, production deployment, and domain-specific applied AI solutions.",
+      "f1": "AI Strategy & Use-Case Engineering",
+      "f2": "Data Science & Advanced Analytics",
+      "f3": "Machine Learning Engineering (Spark MLlib, TensorFlow)",
+      "f4": "MLOps & Production Deployment",
+      "f5": "Computer Vision & Video Intelligence",
+      "f6": "Language Models for Government & Enterprise",
+      "f7": "Analytical AI Agents for Banking & Public Finance"
     },
     "platform": {
       "problem": "Traditional data infrastructure is fragmented, expensive, and difficult to scale. Organizations need a unified platform that handles storage, processing, and analytics.",

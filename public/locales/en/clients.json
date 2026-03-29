@@ -5,7 +5,17 @@
   },
   "section": {
     "title": "Who We Work With",
-    "subtitle": "From government agencies to major financial institutions and enterprises."
+    "subtitle": "From government agencies to major financial institutions, telecommunications, and digital enterprises."
+  },
+  "industries": {
+    "title": "Industries We Serve",
+    "items": [
+      "Banking & Financial Services",
+      "Telecommunications",
+      "Government & Public Sector",
+      "Large-Scale Digital Enterprises",
+      "AI-Transforming Organizations"
+    ]
   },
   "sectors": {
     "government": "Government",
