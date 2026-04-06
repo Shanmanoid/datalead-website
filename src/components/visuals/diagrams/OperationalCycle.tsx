@@ -26,7 +26,7 @@ export function OperationalCycle({ className }: OperationalCycleProps) {
 
   return (
     <div ref={ref} className={cn('flex justify-center', className)}>
-      <svg viewBox="0 0 360 360" className="w-full max-w-[420px]" role="img" aria-label="Operational cycle: Assessment, Preparedness, Response, Recovery">
+      <svg viewBox="0 0 360 360" className="w-full max-w-sm md:max-w-md" role="img" aria-label="Operational cycle: Assessment, Preparedness, Response, Recovery">
         {/* Rotating orbit ring */}
         <circle
           cx={cx} cy={cy} r={radius}

@@ -28,7 +28,7 @@ export function DataFlowIllustration({ className }: DataFlowIllustrationProps) {
 
   return (
     <div ref={ref} className={cn('w-full', className)}>
-      <svg viewBox="0 0 430 140" className="w-full max-w-[500px] mx-auto" role="img" aria-label="Data flow illustration">
+      <svg viewBox="0 0 430 140" className="w-full max-w-md mx-auto" role="img" aria-label="Data flow illustration">
         {/* Connection paths */}
         {connections.map((conn, i) => {
           const midX = (conn.from.cx + conn.to.cx) / 2

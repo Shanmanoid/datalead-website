@@ -183,7 +183,7 @@ export function ServiceDetailLayout({
                   <motion.div
                     whileHover={{ y: -5, scale: 1.05 }}
                     transition={{ duration: 0.3 }}
-                    className="group relative flex flex-col items-center justify-center w-28 h-28 rounded-2xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-xl transition-all duration-300 overflow-hidden"
+                    className="group relative flex flex-col items-center justify-center w-20 h-20 md:w-28 md:h-28 rounded-2xl bg-surface-elevated border border-border hover:border-brand/30 hover:shadow-xl transition-all duration-300 overflow-hidden"
                   >
                     <div className={`absolute top-0 left-0 right-0 h-1 bg-gradient-to-r ${meta.gradient} opacity-0 group-hover:opacity-100 transition-opacity`} />
                     <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${meta.gradient} flex items-center justify-center mb-2 shadow-md group-hover:scale-110 transition-transform`}>

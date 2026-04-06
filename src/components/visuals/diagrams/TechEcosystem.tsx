@@ -67,7 +67,7 @@ export function TechEcosystem({ technologies, className }: TechEcosystemProps) {
       </div>
 
       {/* Orbital visualization */}
-      <svg viewBox="0 0 400 400" className="w-full max-w-[500px] mx-auto" role="img" aria-label="Technology ecosystem visualization">
+      <svg viewBox="0 0 400 400" className="w-full max-w-md mx-auto" role="img" aria-label="Technology ecosystem visualization">
         {/* Center node */}
         <motion.g
           initial={{ scale: 0 }}

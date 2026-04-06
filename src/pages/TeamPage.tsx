@@ -55,9 +55,9 @@ export default function TeamPage() {
                       <div className="mx-auto mb-5">
                         <StylizedAvatar
                           name={name}
-                          size={120}
+                          size={90}
                           gradient={gradient[0]}
-                          className="mx-auto"
+                          className="mx-auto md:w-[120px] md:h-[120px]"
                         />
                       </div>
                       <h3 className="text-lg font-bold text-text-primary">{name}</h3>

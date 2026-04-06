@@ -48,7 +48,7 @@ export function ContactForm() {
   }
 
   const inputClass = cn(
-    'w-full px-4 py-3 rounded-lg bg-surface border border-border',
+    'w-full px-4 py-3.5 rounded-lg bg-surface border border-border',
     'text-text-primary placeholder:text-text-muted',
     'focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent',
     'transition-all duration-200'
@@ -56,7 +56,7 @@ export function ContactForm() {
 
   return (
     <form onSubmit={handleSubmit(onSubmit)} className="space-y-5">
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div>
           <label className="block text-sm font-medium text-text-primary mb-1.5">
             {t('form.name')} *
@@ -80,7 +80,7 @@ export function ContactForm() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div>
           <label className="block text-sm font-medium text-text-primary mb-1.5">
             {t('form.phone')}

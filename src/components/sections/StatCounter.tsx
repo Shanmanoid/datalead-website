@@ -25,7 +25,7 @@ export function StatCounter({
 
   return (
     <div ref={ref} className={cn('flex flex-col items-center gap-3', className)}>
-      <div className="relative w-24 h-24">
+      <div className="relative w-20 h-20 md:w-24 md:h-24">
         {/* Background ring */}
         <svg className="w-full h-full -rotate-90" viewBox="0 0 80 80">
           <circle

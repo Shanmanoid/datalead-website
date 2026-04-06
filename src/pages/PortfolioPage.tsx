@@ -87,7 +87,7 @@ export default function PortfolioPage() {
                     <div className="rounded-2xl bg-surface-elevated border border-border hover:shadow-xl hover:border-brand/30 transition-all duration-300 h-full flex flex-col overflow-hidden">
                       {/* Visual header — 50% of card */}
                       <div
-                        className="h-36 flex items-center justify-center relative"
+                        className="h-28 md:h-36 flex items-center justify-center relative"
                         style={{ background: `linear-gradient(135deg, ${visual.color}10, ${visual.color}20)` }}
                       >
                         <div

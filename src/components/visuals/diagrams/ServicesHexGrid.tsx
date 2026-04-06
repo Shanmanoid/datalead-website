@@ -41,7 +41,7 @@ export function ServicesHexGrid({ services, className }: ServicesHexGridProps) {
 
   return (
     <div ref={ref} className={cn('w-full', className)}>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 md:gap-4">
         {services.map((service, i) => {
           const Icon = ICON_MAP[service.iconName] || Database
           const color = CATEGORY_COLORS[service.category]

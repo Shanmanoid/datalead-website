@@ -30,7 +30,7 @@ export function PillarsDiagram({ className }: PillarsDiagramProps) {
 
   return (
     <div ref={ref} className={cn('flex justify-center', className)}>
-      <svg viewBox="0 0 400 400" className="w-full max-w-[500px]" role="img" aria-label="Six pillars of enterprise data resilience">
+      <svg viewBox="0 0 400 400" className="w-full max-w-md" role="img" aria-label="Six pillars of enterprise data resilience">
         {/* Center hub */}
         <motion.circle
           cx={cx} cy={cy} r={45}

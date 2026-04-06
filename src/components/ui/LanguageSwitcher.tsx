@@ -16,7 +16,7 @@ export function LanguageSwitcher() {
           key={lang.code}
           onClick={() => i18n.changeLanguage(lang.code)}
           className={cn(
-            'px-2.5 py-1 text-xs font-semibold rounded-md transition-all duration-200 cursor-pointer',
+            'px-3 py-1.5 text-sm font-semibold rounded-md transition-all duration-200 cursor-pointer',
             i18n.language === lang.code
               ? 'bg-brand text-white shadow-sm'
               : 'text-text-muted hover:text-text-primary'

@@ -18,7 +18,7 @@ export function StatsBar() {
     <section className="py-16 bg-gradient-to-b from-surface to-surface-alt border-y border-border">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <ScrollReveal>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
             {stats.map(stat => (
               <StatCounter
                 key={stat.label}

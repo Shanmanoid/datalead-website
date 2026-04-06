@@ -25,6 +25,16 @@ export function Header() {
     setIsMobileOpen(false)
   }, [location.pathname])
 
+  // Lock body scroll when mobile menu is open
+  useEffect(() => {
+    if (isMobileOpen) {
+      document.documentElement.style.overflow = 'hidden'
+    } else {
+      document.documentElement.style.overflow = ''
+    }
+    return () => { document.documentElement.style.overflow = '' }
+  }, [isMobileOpen])
+
   const navItems = [
     { path: '/', label: t('nav.home') },
     { path: '/about', label: t('nav.about') },
@@ -73,7 +83,7 @@ export function Header() {
               <ThemeToggle />
               <button
                 onClick={() => setIsMobileOpen(!isMobileOpen)}
-                className="lg:hidden p-2 text-text-secondary hover:text-text-primary cursor-pointer"
+                className="lg:hidden p-2.5 text-text-secondary hover:text-text-primary cursor-pointer"
                 aria-label="Toggle menu"
               >
                 {isMobileOpen ? <X size={24} /> : <Menu size={24} />}

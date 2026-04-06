@@ -8,7 +8,7 @@ export function ThemeToggle() {
   return (
     <button
       onClick={toggleTheme}
-      className="p-2 rounded-lg bg-surface-alt text-text-secondary hover:text-text-primary transition-colors cursor-pointer"
+      className="p-2.5 rounded-lg bg-surface-alt text-text-secondary hover:text-text-primary transition-colors cursor-pointer"
       aria-label="Toggle theme"
     >
       <motion.div

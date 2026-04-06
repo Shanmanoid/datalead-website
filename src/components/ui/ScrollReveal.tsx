@@ -1,5 +1,6 @@
 import { type ReactNode } from 'react'
 import { motion } from 'motion/react'
+import { useReducedMotion } from '@/hooks/useReducedMotion'
 
 interface ScrollRevealProps {
   children: ReactNode
@@ -21,7 +22,12 @@ export function ScrollReveal({
   delay = 0,
   className,
 }: ScrollRevealProps) {
+  const reducedMotion = useReducedMotion()
   const offset = directionMap[direction]
+
+  if (reducedMotion) {
+    return <div className={className}>{children}</div>
+  }
 
   return (
     <motion.div
