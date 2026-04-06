@@ -1,30 +1,17 @@
 import { useTranslation } from 'react-i18next'
-import { useAnimatedCounter } from '@/hooks/useAnimatedCounter'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { siteConfig } from '@/config/site'
-
-function StatItem({ value, suffix, label }: { value: number; suffix: string; label: string }) {
-  const { ref, count } = useAnimatedCounter(value)
-
-  return (
-    <div ref={ref} className="text-center">
-      <div className="text-3xl md:text-4xl font-bold text-brand">
-        {count}
-        {suffix}
-      </div>
-      <div className="text-sm text-text-secondary mt-1 font-medium">{label}</div>
-    </div>
-  )
-}
+import { StatCounter } from './StatCounter'
+import { Clock, Users, FolderOpen, HeadphonesIcon } from 'lucide-react'
 
 export function StatsBar() {
   const { t } = useTranslation('home')
 
   const stats = [
-    { value: siteConfig.stats.yearsExperience, suffix: '+', label: t('stats.years') },
-    { value: siteConfig.stats.clients, suffix: '+', label: t('stats.customers') },
-    { value: siteConfig.stats.projects, suffix: '+', label: t('stats.projects') },
-    { value: 24, suffix: '/7', label: t('stats.support') },
+    { value: siteConfig.stats.yearsExperience, suffix: '+', label: t('stats.years'), icon: Clock, color: '#3b82f6' },
+    { value: siteConfig.stats.clients, suffix: '+', label: t('stats.customers'), icon: Users, color: '#8b5cf6' },
+    { value: siteConfig.stats.projects, suffix: '+', label: t('stats.projects'), icon: FolderOpen, color: '#10b981' },
+    { value: 24, suffix: '/7', label: t('stats.support'), icon: HeadphonesIcon, color: '#f59e0b' },
   ]
 
   return (
@@ -33,7 +20,14 @@ export function StatsBar() {
         <ScrollReveal>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map(stat => (
-              <StatItem key={stat.label} {...stat} />
+              <StatCounter
+                key={stat.label}
+                value={stat.value}
+                suffix={stat.suffix}
+                label={stat.label}
+                icon={stat.icon}
+                color={stat.color}
+              />
             ))}
           </div>
         </ScrollReveal>

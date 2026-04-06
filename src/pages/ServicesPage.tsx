@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import { motion, AnimatePresence } from 'motion/react'
-import { ServiceCard } from '@/components/sections/ServiceCard'
+import { ServicesHexGrid } from '@/components/visuals/diagrams/ServicesHexGrid'
+import { GridPattern } from '@/components/visuals/backgrounds/GridPattern'
 import { CTABanner } from '@/components/sections/CTABanner'
 import { services } from '@/utils/constants'
 import { cn } from '@/utils/cn'
@@ -19,10 +20,20 @@ export default function ServicesPage() {
   const getCategoryCount = (cat: string) =>
     cat === 'all' ? services.length : services.filter(s => s.category === cat).length
 
+  // Map services for ServicesHexGrid
+  const gridServices = filtered.map(s => ({
+    id: s.id,
+    iconName: s.icon,
+    titleKey: s.titleKey,
+    path: s.path,
+    category: s.category,
+  }))
+
   return (
     <>
-      <section className="py-20 bg-gradient-to-br from-brand-dark to-brand">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-20 bg-gradient-to-br from-brand-dark to-brand overflow-hidden">
+        <GridPattern className="opacity-20" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">{t('servicesPage.hero.title')}</h1>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">{t('servicesPage.hero.subtitle')}</p>
         </div>
@@ -31,7 +42,7 @@ export default function ServicesPage() {
       <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Filters */}
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-3 mb-12">
             {categories.map(cat => (
               <motion.button
                 key={cat}
@@ -55,24 +66,18 @@ export default function ServicesPage() {
             ))}
           </div>
 
-          {/* Services Grid */}
-          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <AnimatePresence mode="popLayout">
-              {filtered.map((service, i) => (
-                <motion.div
-                  key={service.id}
-                  layout
-                  initial={{ opacity: 0, scale: 0.9 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  exit={{ opacity: 0, scale: 0.9 }}
-                  transition={{ duration: 0.3 }}
-                  className="h-full"
-                >
-                  <ServiceCard service={service} index={i} />
-                </motion.div>
-              ))}
-            </AnimatePresence>
-          </div>
+          {/* Hex Grid */}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={activeCategory}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.3 }}
+            >
+              <ServicesHexGrid services={gridServices} />
+            </motion.div>
+          </AnimatePresence>
         </div>
       </section>
 

@@ -29,6 +29,10 @@
     "iomete": { "desc": "AI-yə Hazır Data Lakehouse Platforması" },
     "spark": { "desc": "Böyük Data və ML Emal Mühərriki" }
   },
+  "approach": {
+    "title": "Yanaşmamız",
+    "subtitle": "Korporativ məlumat həlləri üçün sübut olunmuş metodologiya"
+  },
   "customers": {
     "title": "Müştərilərimiz",
     "subtitle": "Azərbaycanın aparıcı təşkilatları bizə etibar edir."

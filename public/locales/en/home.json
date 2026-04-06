@@ -29,6 +29,10 @@
     "iomete": { "desc": "AI-Ready Data Lakehouse Platform" },
     "spark": { "desc": "Big Data & ML Processing Engine" }
   },
+  "approach": {
+    "title": "Our Approach",
+    "subtitle": "A proven methodology for delivering enterprise data solutions"
+  },
   "customers": {
     "title": "Our Customers",
     "subtitle": "Trusted by leading organizations across Azerbaijan."

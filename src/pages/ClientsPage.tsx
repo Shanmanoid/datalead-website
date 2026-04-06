@@ -2,7 +2,9 @@ import { useTranslation } from 'react-i18next'
 import { ScrollReveal } from '@/components/ui/ScrollReveal'
 import { SectionHeading } from '@/components/ui/SectionHeading'
 import { CTABanner } from '@/components/sections/CTABanner'
-import { Building2, Landmark, Briefcase } from 'lucide-react'
+import { GridPattern } from '@/components/visuals/backgrounds/GridPattern'
+import { Building2, Landmark, Briefcase, Banknote, Radio, Globe, Factory, Brain } from 'lucide-react'
+import { motion } from 'motion/react'
 import type { LucideIcon } from 'lucide-react'
 import { publicPath } from '@/utils/publicPath'
 
@@ -63,26 +65,49 @@ export default function ClientsPage() {
 
   return (
     <>
-      <section className="py-20 bg-gradient-to-br from-brand-dark to-brand">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+      <section className="relative py-20 bg-gradient-to-br from-brand-dark to-brand overflow-hidden">
+        <GridPattern className="opacity-15" />
+        <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-white mb-4">{t('hero.title')}</h1>
           <p className="text-lg text-white/80 max-w-2xl mx-auto">{t('hero.subtitle')}</p>
         </div>
       </section>
 
       {/* Industries We Serve */}
-      <section className="py-16">
+      <section className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <SectionHeading title={t('industries.title')} subtitle="" />
-          <div className="mt-8 flex flex-wrap justify-center gap-3">
-            {(t('industries.items', { returnObjects: true }) as string[]).map((item, i) => (
-              <ScrollReveal key={i} delay={i * 0.08}>
-                <span className="inline-block px-5 py-2.5 rounded-xl bg-brand/5 text-brand font-medium text-sm border border-brand/10">
-                  {item}
-                </span>
-              </ScrollReveal>
-            ))}
-          </div>
+          {(() => {
+            const items = t('industries.items', { returnObjects: true }) as string[]
+            const icons = [Banknote, Radio, Globe, Factory, Brain]
+            const colors = ['#3b82f6', '#8b5cf6', '#10b981', '#f59e0b', '#ef4444']
+            return (
+              <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
+                {items.map((item, i) => {
+                  const Icon = icons[i % icons.length]
+                  const color = colors[i % colors.length]
+                  return (
+                    <ScrollReveal key={i} delay={i * 0.1} className="h-full">
+                      <motion.div
+                        whileHover={{ y: -4 }}
+                        className="h-full flex flex-col items-center text-center p-6 rounded-2xl border border-border bg-surface-elevated hover:shadow-lg transition-all duration-300 group"
+                      >
+                        <div
+                          className="w-14 h-14 rounded-xl flex items-center justify-center mb-4 group-hover:scale-110 transition-transform"
+                          style={{ backgroundColor: `${color}12` }}
+                        >
+                          <Icon size={28} color={color} />
+                        </div>
+                        <span className="text-sm font-semibold text-text-primary leading-tight">
+                          {item}
+                        </span>
+                      </motion.div>
+                    </ScrollReveal>
+                  )
+                })}
+              </div>
+            )
+          })()}
         </div>
       </section>
 
